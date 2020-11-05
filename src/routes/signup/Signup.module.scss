@@ -1,0 +1,123 @@
+@import "assets/variables.scss";
+@import "./Signup.media.scss";
+
+:root {
+  --brand-color: #61dafb;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.signUpForm {
+  max-width: 800px;
+  min-width: 375px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  :global {
+    .backButton {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.signupRoot {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(180deg, #1890ff 0%, rgba(52, 60, 222, 0.85) 100%);
+}
+
+.formWrapper {
+  width: 65%;
+  min-height: 100%;
+  padding: 0 12.5% 0 17.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+.signupFormFooter {
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #25383f;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+}
+.forgotPasswordText {
+  color: #4d595e !important;
+  margin-bottom: 22px;
+
+  a {
+    color: $font---blue;
+  }
+}
+
+.backButton {
+  margin-bottom: 5vh;
+  margin-top: 1rem;
+}
+
+.thirdPartyAuthContainer {
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.formCardTitle {
+  font-size: 28px;
+  line-height: 135%;
+  color: #344248;
+  font-weight: 500;
+  font-style: normal;
+}
+.formCardSubTitle {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: #151515;
+  opacity: 0.5;
+}
+.alreadyHaveAccountText {
+  font-size: 12pt !important;
+  text-align: right !important;
+  margin-top: 10px !important;
+  float: right;
+}
+
+.backButton a {
+  color: black !important;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.alertMessage {
+  margin: 15px 0 !important;
+}
+@media (min-width: 414px) {
+  .signupFormCard {
+    padding: 40px !important;
+  }
+}
+
+@media (min-width: 550px) {
+  .signupFormCard {
+    width: 450px !important;
+    padding: 50px !important;
+  }
+}

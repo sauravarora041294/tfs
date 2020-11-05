@@ -1,0 +1,13 @@
+@import "scss/main.scss";
+
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .creatorDetails {
+    margin: 0 1.5rem 2rem 1.5rem !important;
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .creatorDetails {
+    //margin-left: 0 !important;
+  }
+}

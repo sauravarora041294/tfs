@@ -1,0 +1,197 @@
+@import "assets/variables.scss";
+
+.creatorProfileText {
+  margin-top: 2px;
+  font-size: 12pt;
+}
+.creatorProfileFieldLabel {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 11pt;
+}
+
+.profileContentCard {
+  margin: 7.5vh 7.5vw !important;
+  padding: 0 !important;
+}
+
+.profileAvatar {
+  margin: 0 20px !important;
+}
+
+.profileAvatarContainer {
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+.profileHeaderTextContainer {
+  margin: 10px 20px;
+}
+
+.profileHeader {
+}
+
+.creatorProfileName {
+  font-size: 13pt;
+  font-weight: 600;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileRoleTitle {
+  font-size: 12pt;
+  font-weight: 400;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileCompany {
+  font-size: 12pt;
+  font-weight: 400;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileSkillTitle {
+  font-size: 11pt;
+  font-weight: 600;
+  margin-top: 3 !important;
+  margin-bottom: 1px !important;
+  padding: 0;
+}
+
+.creatorProfileSkillJustification {
+  font-size: 11pt;
+  font-weight: 400;
+  margin-top: 0 !important;
+  margin-bottom: 3 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileCardSection {
+  padding: 0px 15px;
+  margin-bottom: 25px;
+}
+
+.creatorProfileCardSectionTitle {
+  font-size: 12pt;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 10px !important;
+  padding: 0 !important;
+}
+
+.creatorProfileCardSectionContent {
+  margin-top: 2px;
+  font-size: 12pt;
+}
+
+.profileInfoSection {
+  margin-bottom: 25px;
+}
+
+.creatorProfileLink {
+  padding: 0 !important;
+  margin-top: 0 !important;
+  font-weight: 500;
+}
+
+.editProfileSectionButton {
+  margin-right: 0px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.editProfileSectionHeaderButton {
+  margin-right: 15px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.creatorProfileSectionHeader {
+  display: flex;
+}
+
+.linksDivider {
+  width: 1px;
+  height: 17px;
+  margin: 0 10px;
+  background-color: #c7d2df;
+}
+
+.creatorProfileCardEditingSection {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  background-color: #f9fafc;
+}
+
+.sectionFormSaveButton {
+  margin-top: 10px;
+}
+
+.sectionFormCancelButton {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.uploadButton {
+}
+
+.sectionFormItem {
+  margin-bottom: 5px;
+}
+
+.profilePicturePreview {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.profilePictureMissingIconContainer {
+  width: 150px !important;
+  height: 150px !important;
+  background-color: #1399e1;
+  border-width: 1px;
+  border-color: #d9dbdf;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profilePictureMissingIcon {
+  color: #fff;
+  font-size: 50pt !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilePictureUploadButton {
+  margin-top: 15px;
+}
+
+.profilePictureContainer {
+  width: 100%;
+}
+
+.skillFormItem {
+  margin-bottom: 1rem !important;
+}
+
+.selectSkillRow {
+  /* margin-bottom: 1rem; */
+  display: flex;
+}
+
+.selectSkillInput {
+  margin-right: 1rem;
+}

@@ -1,0 +1,33 @@
+.activityCardListItem {
+  padding: 1rem;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+
+.activityCardListItemInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.activityCardListItemCreatorAvatar {
+  margin-right: 1rem;
+}
+
+.activityCardListItemHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.activityCardListItemCreatorName {
+  font-weight: 600;
+}
+
+.activityCardListItemTimestamp {
+  font-size: 0.85em;
+  color: #999;
+}

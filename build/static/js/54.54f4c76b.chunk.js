@@ -1,0 +1,2 @@
+(this.webpackJsonplms=this.webpackJsonplms||[]).push([[54],{1090:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return f}));var a=e(15),r=e(0),c=e.n(r),o=e(35),u=e(48),i=e(6),s=e(9),l=e(29),f=Object(s.a)(i.h)((function(){var n=c.a.useContext(o.a),t=Object(a.a)(n,2),e=(t[0],t[1]);return c.a.useEffect((function(){e({type:u.a.SET_INVALID_AUTH_TOKEN_ERROR,invalidAuthTokenError:null}),Object(l.f)(),window.location.href="/login-creator"}),[]),c.a.createElement("span",null)}))}}]);
+//# sourceMappingURL=54.54f4c76b.chunk.js.map

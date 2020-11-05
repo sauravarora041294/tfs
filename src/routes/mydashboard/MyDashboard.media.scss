@@ -1,0 +1,110 @@
+@import "scss/main.scss";
+
+// For screen with size between 991px to 1199px
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+  .myDashboardHeader {
+    position: relative;
+
+    :global {
+      img {
+        position: absolute;
+        top: -49px;
+        right: 104px;
+        max-width: 241px;
+      }
+    }
+  }
+
+  .defaultViewSectionContainer {
+    padding: 0 !important;
+  }
+}
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .myDashboardHeader {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0;
+
+    img {
+      right: 50%;
+      transform: translateX(50%);
+    }
+
+    .myDashboardHeaderContent {
+      margin-top: 3rem;
+    }
+  }
+}
+
+// For screen with size between 575px to 767px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .myDashboardContentContainer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  .myDashboardHeader {
+    :global {
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+  .defaultViewSectionHeader {
+    margin-top: 25px !important;
+  }
+  .defaultViewSectionTitle {
+    padding: 0 3vw !important;
+  }
+
+  .defaultViewSectionContent ul > span:first-child {
+    margin-left: 3vw !important;
+  }
+}
+@media (min-width: 621px) and (max-width: 767px) {
+  .defaultViewSectionHeader {
+    padding-left: 0.875rem !important;
+  }
+}
+@media (max-width: 620px) {
+  .defaultViewSectionHeader {
+    text-align: center;
+  }
+}
+// For screen with size between 400px to 575px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .defaultViewSectionContainer {
+    .resultsRow {
+      padding-left: 0 !important;
+    }
+    .defaultViewSectionHeader {
+      min-width: 300px;
+      font-size: 1.5rem !important;
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .myDashboardHeader {
+    padding: 1rem;
+  }
+
+  .defaultViewSectionContainer {
+    .resultsRow {
+      padding-left: 0 !important;
+    }
+    .defaultViewSectionHeader {
+      font-size: 1.3rem !important;
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

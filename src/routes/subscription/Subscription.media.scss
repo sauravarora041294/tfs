@@ -1,0 +1,111 @@
+@import "scss/main.scss";
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .subscriptionFormCard {
+    margin: 0 !important;
+    max-width: unset !important;
+    min-height: calc(100vh - 4rem);
+    padding: 1rem 1rem !important;
+
+    .subscriptionFormGraphic {
+      display: none !important;
+    }
+
+    .planSelectGroup {
+      justify-content: center;
+    }
+  }
+}
+
+// For screen with size between 400px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .subscriptionFormCard {
+    :global {
+      .ant-steps-item::after {
+        display: none !important;
+      }
+
+      .ant-steps-item-active::before {
+        height: 2px !important;
+      }
+    }
+
+    .formCardTitle {
+      text-align: left !important;
+    }
+
+    .formCardSubtitle {
+      text-align: left !important;
+      margin: unset !important;
+      max-width: unset !important;
+    }
+    .planSelectGroup {
+      flex-direction: column;
+      align-items: center;
+
+      .planSelectCard {
+        margin-right: unset !important;
+        margin-bottom: 1rem !important;
+      }
+    }
+
+    .formCardSectionHeading {
+      margin-top: 0 !important;
+    }
+
+    .formCardSteps {
+      display: flex !important;
+    }
+
+    .planSelectPrice {
+      font-size: 2rem !important;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .subscriptionFormCard {
+    :global {
+      .ant-card-body {
+        padding: 0.8rem !important;
+        padding-top: 1rem !important;
+      }
+      .ant-steps-horizontal.ant-steps-label-horizontal .ant-steps-item-icon {
+        margin-right: 10px !important;
+      }
+    }
+
+    .formCardTitle {
+      font-size: 1.3rem !important;
+    }
+
+    .planSelectPrice {
+      font-size: 1.7rem !important;
+    }
+
+    .planSelectTitle {
+      font-size: 1rem !important;
+    }
+
+    .formCardSectionHeading {
+      font-size: 1.2rem !important;
+      margin-bottom: 2rem;
+    }
+
+    .formCardSteps {
+      margin-top: 1rem !important;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

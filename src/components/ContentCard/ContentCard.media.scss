@@ -1,0 +1,21 @@
+// For screen with size between 0px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .missionCreatorsList {
+    justify-content: space-evenly;
+  }
+  .contentCard {
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  .contentCardSubtitle {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+// For screen with size between 992px to 1200px
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+  .missionCreatorsListContainer {
+    margin-top: 3vw;
+  }
+}

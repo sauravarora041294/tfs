@@ -1,0 +1,15 @@
+@import "scss/main.scss";
+
+.TextInputField {
+  height: $btn_input_height !important;
+  input {
+    height: $btn_input_height !important;
+  }
+
+  :global {
+    .ant-input-wrapper,
+    input {
+      height: 100%;
+    }
+  }
+}

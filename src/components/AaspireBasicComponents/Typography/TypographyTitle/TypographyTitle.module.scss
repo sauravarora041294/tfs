@@ -1,0 +1,70 @@
+@import "scss/main.scss";
+
+.TypographyTitle {
+  display: block;
+
+  :global {
+    .pageHeaderTitle {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3rem;
+      font-family: inherit;
+      color: $font--black;
+      line-height: 150%;
+    }
+
+    .cardTitle {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 180%;
+      color: $font--black;
+      font-family: inherit;
+    }
+
+    .cardSubTitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 180%;
+      color: $font--black;
+      font-family: inherit;
+    }
+
+    .cardSubSubTitle {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 180%;
+      color: $font--black;
+      font-family: inherit;
+    }
+
+    .secondaryTitle {
+      color: $font--black;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      word-break: break-word;
+    }
+
+    .centered {
+      text-align: center;
+      display: block;
+    }
+
+    .blue {
+      color: $font---blue;
+    }
+
+    .purple {
+      color: $icon--purple;
+    }
+
+    .white {
+      color: #fff;
+    }
+  }
+}
+
+@import "./TypographyTitle.media.scss";

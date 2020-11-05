@@ -1,0 +1,111 @@
+@import "assets/variables.scss";
+
+.creatorsHubRoot{
+  padding: 5vh;
+}
+
+.contentTableCreatorName {
+  display: inline-block !important;
+  float: left !important;
+}
+
+.contentTableCreatorAvatar {
+  display: inline-block !important;
+  float: left !important;
+}
+
+.leftHandSectionCard {
+  margin: 10px 0 !important;
+}
+
+.rightHandSectionCard {
+  margin: 10px 0 !important;
+}
+
+.leftHandGridSectionContainer {
+  padding: 5vh 7.5vw !important;
+  padding-left: 1vw !important;
+  padding-right: 2vw !important;
+  padding-top: 5vh !important;
+  padding-bottom: 5vh !important;
+}
+
+.rightHandGridSectionContainer {
+  padding: 5vh 7.5vw !important;
+  padding-left: 1vw !important;
+  padding-right: 2vw !important;
+  padding-top: 5vh !important;
+  padding-bottom: 5vh !important;
+}
+
+.contentTableThumbnailImage {
+  width: 90px !important;
+  height: 60px !important;
+  object-fit: cover !important;
+}
+
+.contentTableHeaderText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.myContentActionButton {
+  margin: 0 5px;
+}
+
+.statsRow {
+  display: flex;
+}
+
+.noDataDefaultView {
+  padding-top: 50px;
+}
+
+.creatorSearchResultsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewAllCreatorsLinkText {
+  font-weight: 500;
+  font-size: 1.1em;
+  color: rgb(166, 176, 187);
+}
+
+.viewAllCreatorsLink:hover .viewAllCreatorsLinkText {
+  text-decoration: underline;
+}
+
+.viewAllCreatorsLinkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.creatorsHubSearchResultsContainer {
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+  padding: 2rem 3rem;
+}
+
+.creatorsHubSearchResultHeader {
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.creatorsHubSearchResultsList {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}

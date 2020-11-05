@@ -1,0 +1,39 @@
+@import "scss/main.scss";
+
+@media (min-width: map-get($grid-breakpoints,"md")) {
+  .topBarAvatarColumn {
+    padding-right: 30px !important;
+  }
+}
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .dashboardTopBar {
+    position: absolute !important;
+  }
+
+  .topBarAvatarColumn {
+    padding-right: 1rem !important;
+  }
+  .dashboardTopBar .topBarSearchbarColumn {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .topBarAvatarColumn {
+    padding-left: 0 !important;
+  }
+  .topBarLogoColumn {
+    padding-right: 0 !important;
+    text-align: left;
+  }
+  .logoMobile {
+    margin: auto 0 !important;
+  }
+  .topBarToggleButtonColumn {
+    display: none !important;
+  }
+  .searchBarInput {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

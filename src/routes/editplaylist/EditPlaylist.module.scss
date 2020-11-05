@@ -1,0 +1,205 @@
+@import "assets/variables.scss";
+
+.editPlaylistRoot {
+  padding: 0;
+}
+
+.editPlaylistRootGrid {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+
+.accessAlert {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.playlistInfoSectionContainer {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 1vw !important;
+  padding-top: 4vh !important;
+  padding-bottom: 5vh !important;
+  height: 100vh;
+}
+
+.playlistContributorsListCard {
+  margin: 20px 0;
+  padding: 1rem !important;
+  height: auto !important;
+}
+
+.playlistSectionsContainer {
+  padding-left: 2vw !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 3vh !important;
+  padding-bottom: 5vh !important;
+}
+
+.listArea {
+  margin: 20px 0;
+}
+
+.resourceTitle {
+  color: #4d5a69;
+  font-size: 12pt;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-right: -25px;
+  margin-left: 15px;
+  width: 100%;
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.playlistSectionListContainer {
+  margin: 10px 0;
+  background-color: #fff;
+  padding: 1rem !important;
+  height: auto !important;
+}
+
+.playlistTitleText {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contributorsTitleText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.playlistDescriptionText {
+  margin-top: 10px;
+  font-size: 12pt;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.playlistMetadata {
+  margin-top: 10px;
+  font-size: 12pt;
+}
+
+.playlistTagsArea {
+  margin: 15px 0;
+}
+
+.playlistTag {
+  padding: 4px 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.playlistContributorsArea {
+  margin-top: 10px;
+}
+
+.playlistThumbnail {
+  margin-top: 0px;
+  max-height: 257px;
+  height: auto;
+  object-fit: cover;
+}
+
+.pageHeaderSubtitleText {
+  font-size: 12pt;
+}
+
+.thumbnailImage {
+  height: 70px !important;
+  width: 120px !important;
+  object-fit: cover;
+  margin: 0 0px;
+}
+
+.shiftButtonGroup {
+  margin-left: -10px !important;
+  margin-right: 10px !important;
+}
+.playlistInfoCard {
+  padding-top: 0px;
+}
+
+.listItem {
+}
+
+.editPlaylistButtonGroup {
+  margin-top: 15px;
+}
+
+.listItemText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.sectionDescription {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sectionHeader {
+  padding-bottom: 10px;
+}
+
+.addVideoButton {
+  height: 45px;
+  color: #1f8cf0;
+  border-color: #1f8cf0;
+  margin: 7.5px 0;
+}
+
+.condensedFormItem {
+  margin: 5px 0;
+  width: 100%;
+}
+
+.finishEditingButton {
+}
+
+.cancelEditingButton {
+}
+
+.condensedForm {
+  margin-top: 10px;
+}
+
+.middot {
+  font-size: 20pt;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.sectionsAreaHeader {
+  padding-bottom: 20px !important;
+}
+
+.addSectionButton {
+  color: #1f8cf0;
+  border-color: #1f8cf0;
+}
+
+.deleteSectionButton {
+  color: red;
+}
+
+.contributorAdminLabel {
+  font-weight: 500;
+}
+
+.pageHeader {
+  margin-top: 20px !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: transparent !important;
+  background: transparent !important;
+}

@@ -1,0 +1,13 @@
+@import "assets/variables.scss";
+.thumbnailPreview {
+  width: 250px !important;
+  height: 125px !important;
+  margin-top: 10px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.warningText {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 15px;
+}

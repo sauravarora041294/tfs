@@ -1,0 +1,51 @@
+@import "scss/main.scss";
+
+.TypographyMetaData {
+  display: inline-block;
+
+  .metaDataValue {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.15rem;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: $font--black;
+
+    &.fontSize__small {
+      font-size: 0.8rem;
+    }
+
+    &.fontSize__large {
+      font-size: 1.5rem;
+    }
+  }
+
+  .metaDataLabel {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.35rem;
+  }
+
+  .centered {
+    text-align: center;
+    display: block;
+  }
+
+  .fontColor__blue {
+    color: $font---blue;
+  }
+
+  .fontColor__black {
+    color: $font--black;
+  }
+
+  .fontColor__darkGrey {
+    color: $font--dark-grey;
+  }
+
+  .fontColor__grey {
+    color: $font--grey;
+  }
+}
+
+@import "./TypographyMetaData.media.scss";

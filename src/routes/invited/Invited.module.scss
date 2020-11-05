@@ -1,0 +1,243 @@
+@import "scss/main.scss";
+
+.invitedRoot {
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/images/newBackgroundTexture.svg");
+  font-family: inherit;
+  z-index: 99;
+}
+.errorMessage {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 1px;
+
+  color: #fb255d;
+  margin-top: 10px;
+  text-align: center;
+}
+.submitButtonCustom {
+  width: 130px !important;
+  height: 46px !important;
+
+  background: #1890ff !important;
+  border-radius: 5px !important;
+  vertical-align: center;
+  text-align: center;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  /* identical to box height, or 150% */
+
+  text-align: center !important;
+  letter-spacing: 2px !important;
+  text-transform: capitalize !important;
+
+  color: #ffffff;
+}
+.applyNowButton {
+  width: 189px !important;
+  height: 49px !important;
+  cursor: pointer;
+  background: #1890ff !important;
+  border-radius: 5px !important;
+  vertical-align: center;
+  text-align: center;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 49px !important;
+  /* identical to box height, or 150% */
+
+  text-align: center !important;
+  letter-spacing: 2px !important;
+  text-transform: capitalize !important;
+
+  color: #ffffff;
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.inputContainer input {
+  margin: 0 auto;
+  height: 46px;
+  padding: 20px;
+  max-width: 257px;
+}
+.invitedWhiteCard {
+  margin: 2vw 0;
+  height: auto !important;
+  padding: 5vh 5vw !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  width: 86% !important;
+  min-width: 300px !important;
+  z-index: 2;
+}
+.invitedWhiteCardForm {
+  margin: 2vw 0;
+  height: auto !important;
+  padding: 5vh 5vw !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  width: 50% !important;
+  max-width: 700px !important;
+  z-index: 2;
+}
+.joinOurCommunityText {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: $font---blue;
+  text-transform: uppercase;
+  text-align: center;
+}
+.welcomeText {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 175%;
+  margin: 35px auto;
+  max-width: 500px;
+  color: #0f2137;
+}
+.welcomeSmallText {
+  color: #0f2137;
+  max-width: 570px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 175%;
+}
+.floatingBGImage1 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  z-index: 1;
+}
+.floatingBGImage2 {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  z-index: 1;
+}
+
+.talkingPointsWrapper {
+  margin-top: 183px;
+  padding: 0 10%;
+}
+.talkingPointsHeader {
+  font-size: 1.6rem;
+  line-height: 165%;
+  font-weight: 500;
+  color: #0f2137;
+}
+.talkingPointsText {
+  color: #74818e;
+  font-size: 1rem;
+  line-height: 175%;
+  margin-top: 10px;
+}
+.benefitsWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 3.5rem;
+  margin-top: 180px;
+}
+.benefit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 270px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 44px;
+  color: #0f2137;
+}
+.benefitRight {
+  width: 220px;
+  margin-left: 20px;
+}
+.benefitTitle {
+  font-size: 1.2rem;
+  line-height: 110%;
+  margin-bottom: 14px;
+  letter-spacing: 0.4px;
+}
+.benefitText {
+  font-size: 0.875rem;
+  color: rgba(52, 61, 76, 0.8);
+}
+.benefitsHeading {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 165%;
+  color: #0f2137;
+  margin-bottom: 43px;
+  text-align: center;
+  width: 100%;
+}
+.getStartedWrapper {
+  margin-top: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 3.5rem;
+  width: 100%;
+}
+.getStartedHeading {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 165%;
+  color: #0f2137;
+}
+
+.getStartedStepsWrapper {
+  width: 50%;
+}
+.step {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.stepIdx {
+  font-weight: 700;
+  line-height: 67%;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+  margin-right: 20px;
+}
+.stepRight {
+}
+.stepTitle {
+  font-size: 1.2rem;
+  color: #0f2137;
+  letter-spacing: 0.4px;
+  line-height: 111%;
+  margin-bottom: 10px;
+}
+.stepContent {
+  font-size: 1rem;
+  line-height: 117%;
+}
+.stepContent span {
+  color: $font---blue;
+}
+@import "./Invited.media.scss";

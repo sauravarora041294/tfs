@@ -1,0 +1,18 @@
+@import "scss/main.scss";
+
+.ThirdPartyLoginButton {
+  min-height: $btn_input_height;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-width: calc(50% - 10px);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #000000;
+  font-weight: 500;
+  font-style: normal;
+}

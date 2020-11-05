@@ -1,0 +1,135 @@
+@import "assets/variables.scss";
+@import "./Subscription.media.scss";
+@import "scss/main.scss";
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.subscriptionFormCard {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15) !important;
+  background-color: #fff;
+  border: none !important;
+  margin: 80px auto 30px auto;
+  padding: 30px 75px;
+  max-width: 700px;
+  padding-bottom: 0 !important;
+
+  .subscriptionFormGraphic {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    margin-top: -40px;
+  }
+
+  .formCardTitle {
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .formCardSubtitle {
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    max-width: 370px;
+    margin: auto;
+  }
+
+  .formCardSectionHeadingRow {
+    text-align: center;
+  }
+
+  .formCardSectionHeading {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #0000007d;
+    margin-bottom: 2rem;
+  }
+
+  .formCardSteps {
+    margin: 2rem 0;
+    font-weight: 500;
+
+    :global {
+      .ant-steps-item-active {
+        &:before {
+          left: 0;
+          width: 100%;
+          top: 3rem;
+        }
+
+        .ant-steps-item-title {
+          color: $font---blue;
+        }
+      }
+    }
+  }
+
+  .formCardError {
+    margin-bottom: 1.5vh;
+  }
+
+  .planSelectGroup {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  .planSelectCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 240px;
+    height: 100%;
+    padding: 0 23px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    background-color: #fcfcfc;
+    margin-right: 15px;
+    padding-top: 1rem;
+  }
+
+  .planSelectCard ~ .planSelectCard {
+    margin-right: 0;
+  }
+
+  .planSelectCard::before {
+    background-color: transparent;
+    opacity: 0;
+  }
+
+  .planSelectCardCheckIcon {
+    width: 25px;
+    position: absolute;
+    top: -12px;
+    right: -5px;
+  }
+
+  .planSelectPrice {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .planSelectTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+  }
+
+  .planSelectSubtitle {
+    font-size: 13px;
+    margin-top: -10px;
+    color: unset;
+  }
+}

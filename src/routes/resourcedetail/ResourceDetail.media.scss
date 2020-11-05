@@ -1,0 +1,185 @@
+@import "scss/main.scss";
+
+// For screen with size between 991px to 1199px
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+  .resourceDetailGrid {
+    display: block;
+  }
+
+  .resourcesDetailPlaylistContent {
+    padding-bottom: 2rem;
+  }
+
+  .resourcesRelatedVideos {
+    padding-bottom: 2rem;
+  }
+
+  .videoContainer {
+    width: 100%;
+    flex-basis: auto;
+  }
+  .relatedResourcesContentFeedView {
+    margin-top: 3vw;
+  }
+  .resourceDetailRightSideCardColumn {
+    width: 100%;
+    margin-top: 3vw;
+  }
+
+  .videoContainer,
+  .resourceDetailRightSideCardColumn {
+    min-width: unset;
+  }
+}
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+}
+
+// For screen with size between 575px to 767px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .resourceRouteRelatedVideos {
+    display: flex !important;
+  }
+  .resourceRouteRelatedVideos::-webkit-scrollbar {
+    display: none !important;
+  }
+  .videoHeadingRowTitle {
+    font-size: 1.5rem !important;
+  }
+
+  .resourceDetailRoot {
+    margin: 0;
+  }
+
+  $ViewsDurationRatingContainerFontSize: 1rem;
+  .relatedResourcesContentFeedView {
+    width: 100%;
+  }
+  .ViewsDurationRatingContainer {
+    font-size: $ViewsDurationRatingContainerFontSize;
+    width: 100%;
+    margin-top: 12px;
+    :global {
+      .ant-rate-text {
+        font-size: $ViewsDurationRatingContainerFontSize;
+      }
+    }
+
+    .cardViewsCount {
+      font-size: $ViewsDurationRatingContainerFontSize;
+    }
+
+    .cardViewsText {
+      font-size: $ViewsDurationRatingContainerFontSize;
+    }
+
+    .cardRating {
+      font-size: $ViewsDurationRatingContainerFontSize;
+    }
+  }
+
+  .videoHeadingRow {
+    padding-bottom: 2rem;
+  }
+
+  .videoHeadingFooter {
+    margin-top: 0;
+  }
+
+  .videoHeadingRowRatingContainer {
+    flex-direction: column-reverse;
+  }
+
+  .videoHeadingRowRating {
+    margin-left: unset !important;
+  }
+  .resourceDetailRightSideCardColumn {
+    flex-basis: unset;
+  }
+}
+
+// For screen with size between 400px to 575px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .noTagsTag {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .resourceDetailQualityTag {
+    margin-top: 10px;
+  }
+  .resourceRouteRelatedVideos {
+    display: flex !important;
+  }
+  .resourceRouteRelatedVideos::-webkit-scrollbar {
+    display: none !important;
+  }
+  .videoHeadingRow,
+  .videoDetailsFooter {
+    padding: 1rem 1.5rem;
+  }
+
+  .videoDetailsFooter {
+    padding-top: 2rem;
+  }
+  .relatedResourcesContentFeedView {
+    width: 100%;
+  }
+  .videoHeadingRowRatingContainer {
+    margin-top: 1rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rateThisText {
+    margin-right: 1rem;
+  }
+  .resourceDetailRightSideCardColumn {
+    flex-basis: unset;
+  }
+
+  .resourcesDetailPlaylistCard {
+    min-width: unset;
+  }
+
+  .resourcesDetailPlaylistCardHeaderContent {
+    padding: 1rem 1rem;
+  }
+
+  .resourcesRelatedVideos {
+    display: flex;
+
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
+    &::-webkit-scrollbar {
+      /** WebKit */
+      display: none;
+    }
+
+    :global {
+      .ant-badge {
+        width: 90vw;
+        max-width: 400px;
+        min-width: 300px;
+
+        &:first-child {
+          margin-left: 3vw;
+        }
+      }
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .resourceDetailRightSideCardColumn {
+    flex-basis: unset;
+  }
+  .relatedResourcesContentFeedView {
+    margin-top: 10px;
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

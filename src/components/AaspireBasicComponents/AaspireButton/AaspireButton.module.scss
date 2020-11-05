@@ -1,0 +1,17 @@
+@import "scss/main.scss";
+
+.AaspireButton {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  min-height: 2.5rem;
+
+  &.fullWidthButton {
+    width: 100%;
+  }
+
+  &.outlined {
+    color: $font---blue;
+    background: transparent;
+  }
+}

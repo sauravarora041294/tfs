@@ -1,0 +1,2 @@
+(this.webpackJsonplms=this.webpackJsonplms||[]).push([[55],{1092:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return f}));var a=t(15),o=t(0),u=t.n(o),c=t(35),r=t(48),i=t(6),l=t(9),s=t(29),f=Object(l.a)(i.h)((function(){var e=u.a.useContext(c.a),n=Object(a.a)(e,2),t=(n[0],n[1]);return u.a.useEffect((function(){t({type:r.a.SET_INVALID_AUTH_TOKEN_ERROR,invalidAuthTokenError:null}),Object(s.f)(),window.location.href="/login-employee"})),u.a.createElement("span",null)}))}}]);
+//# sourceMappingURL=55.9cd38b24.chunk.js.map

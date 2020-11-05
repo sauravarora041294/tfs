@@ -1,0 +1,28 @@
+@import "./VideoPlayer.media.scss";
+
+.videoPlayer {
+  font-size: 1rem !important;
+  font-family: inherit;
+  border-radius: 0 !important;
+}
+
+.nextVideoButton {
+  outline: none;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 4em;
+  flex: none;
+}
+
+.nextVideoButton:hover {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.nextVideoButtonIcon {
+  font-size: 1.6em;
+}

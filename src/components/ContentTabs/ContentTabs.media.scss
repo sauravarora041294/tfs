@@ -1,0 +1,90 @@
+@import "scss/main.scss";
+
+// For screen with size between 991px to 1199px
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+  .ContentTabs {
+  }
+}
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .ContentTabs {
+    :global {
+      .ant-tabs {
+        .ant-tabs-tab {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+// For screen with size between 575px to 767px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .ContentTabs {
+    :global {
+      .ant-tabs {
+        .ant-tabs-tab {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+// For screen with size between 400px to 575px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .ContentTabs {
+    .centered {
+      :global {
+        .ant-tabs-bar {
+          padding-left: 0;
+        }
+      }
+    }
+    :global {
+      .ant-tabs {
+        .ant-tabs-tab {
+          font-size: 0.95rem;
+        }
+        .ant-tabs-extra-content {
+          display: flex;
+
+          input {
+            font-weight: 500;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            color: $font--dark-grey;
+          }
+        }
+      }
+
+      .ant-tabs-nav .ant-tabs-tab {
+        margin: 0;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .ContentTabs {
+    :global {
+      .ant-tabs {
+        .ant-tabs-tab {
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+  .ContentTabs {
+  }
+}

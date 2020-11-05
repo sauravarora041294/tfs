@@ -1,0 +1,50 @@
+@import "scss/main.scss";
+
+// For screen with size between 0px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .contentRequestsCardTableRow {
+    width: 90vw !important;
+  }
+  .contentRequestsCardTableColumn {
+    span {
+      word-break: break-all;
+    }
+  }
+  .contentRequestTextContainer {
+    margin-bottom: 1rem !important;
+  }
+  .newRequestContainer {
+    .header {
+      margin-top: 20px !important;
+    }
+  }
+  .contentRequestCardImage {
+    margin-right: -70px !important;
+    margin-top: -25px !important;
+    img {
+      width: 80% !important;
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .contentRequestHeaderContainer {
+    margin: 0px 0px 10px 0px !important;
+  }
+
+  .contentRequestTextContainer {
+    margin: 0px 0px 20px !important;
+  }
+
+  .contentRequestFormContainer {
+    padding: 0px 0px 23px 4px !important;
+  }
+  .contentRequestCardImage {
+    margin-right: -70px !important;
+    margin-top: -25px !important;
+    img {
+      width: 80% !important;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+@import "assets/variables.scss";
+@import "./Login.media.scss";
+
+:root {
+  --brand-color: #61dafb;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #1890ff 0%, rgba(52, 60, 222, 0.85) 100%);
+}
+
+.loginForm {
+  max-width: 800px;
+  min-width: 360px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  :global {
+    .backButton {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.loginRoot {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(180deg, #1890ff 0%, rgba(52, 60, 222, 0.85) 100%);
+}
+
+.formWrapper {
+  width: 65%;
+  min-height: 100%;
+  padding: 0 12.5% 0 17.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+.alertMessage {
+  margin: 15px 0 !important;
+}
+
+.signUpFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thirdPartyAuthContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formCardTitle {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 28px;
+  color: #344248;
+}
+.formCardSubTitle {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: #151515;
+  opacity: 0.5;
+}
+
+.alreadyHaveAccountText {
+  margin: 0.5rem 0;
+}
+.loginFormFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  color: #4d595e;
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+.forgotPasswordText {
+  color: #4d595e !important;
+  margin-bottom: 22px;
+
+  a {
+    color: $font---blue;
+  }
+}
+.alertJWTError {
+  // margin-bottom: 40px;
+}

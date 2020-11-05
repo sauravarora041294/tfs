@@ -1,0 +1,277 @@
+@import "assets/variables.scss";
+@import "./ContentRequestsCard.media.scss";
+
+.headerText {
+  padding-left: 8px !important;
+}
+.contentRequestsCard {
+  border: none;
+}
+.ant-collapse-header {
+  border-radius: 10px 10px 0 0 !important;
+  padding: 0 !important;
+}
+
+.collapsibleCardContainer {
+  border-radius: 10px 10px 0px 0px;
+  border: 0;
+  position: fixed;
+  bottom: 0;
+  right: calc(3vw - 15px);
+  box-shadow: 0px 4px 25px rgba(122, 122, 122, 0.75);
+  .ant-collapse > .ant-collapse-item {
+    border-bottom: none !important;
+  }
+}
+
+.newRequestContainer {
+  background-color: #e3f2ff;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0 15px 15px 15px;
+  .header {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: var(--theme-blue);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 0.01em;
+  }
+  .contentRequestCardImage {
+    margin-right: -35px;
+    margin-top: -35px;
+  }
+}
+
+.newRequestSubHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 25px;
+  margin-bottom: 40px;
+  .text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+  }
+  .toggleButtons span {
+    width: 50%;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ebeef3;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    letter-spacing: 0.01em;
+    color: #b0b4b8;
+    font-size: 12px;
+  }
+  .activeToggleButton {
+    border: 1px solid #6672fb !important;
+    line-height: 11px;
+    text-align: center;
+    color: #6672fb !important;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  .toggleButtons .toggleTopVoted {
+    border-radius: 5px 0 0 5px;
+  }
+  .toggleButtons .toggleRecent {
+    border-radius: 0 5px 5px 0;
+  }
+}
+.contentRequestCardPanel {
+  width: 400px;
+  border-radius: 10px 10px 0px 0px !important;
+  background-color: #6672fb;
+  .ant-collapse-header {
+    padding-left: 25px !important;
+  }
+}
+
+.contentRequestCardPanelClosed {
+  width: 400px;
+  border-radius: 10px 10px 0px 0px !important;
+  background-color: #6672fb;
+  .ant-collapse-header {
+    padding-left: 25px !important;
+  }
+  border-bottom: none !important;
+}
+
+.smallScreenCard {
+  margin: 3vw 0;
+  border-radius: 0;
+  width: auto;
+}
+
+.largeScreenContentContainer {
+  height: 48vh;
+  max-height: 550px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 5px 0 0;
+}
+
+.contentRequestDescription {
+  font-size: 11px;
+  line-height: 20px;
+
+  letter-spacing: 0.01em;
+
+  color: #686f7b;
+}
+/*---------------------------------------------------------------*/
+
+.contentRequestsCardTitle {
+  margin-bottom: 1.5vh !important;
+  letter-spacing: 1px;
+}
+
+.contentRequestsCardSubtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  opacity: 0.8;
+  margin-top: 34px;
+}
+
+.verticalLine {
+  height: 100%;
+  position: absolute;
+  width: 1px;
+  background-color: #00000012;
+  right: -20px;
+}
+
+.contentRequestCardTextLower {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--low-opacity-black);
+  margin-top: 22px;
+  margin-bottom: 36px;
+}
+.contentRequestFormContainer {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px 26px 36px 26px;
+}
+.contentRequestHeaderContainer {
+  margin: 31px 23px 12px 23px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: black;
+  opacity: 0.8;
+}
+.contentRequestTextContainer {
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0px 22px 20px;
+  color: var(--low-opacity-black);
+  letter-spacing: 0.5px;
+}
+
+.upvoteText {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  color: black;
+  margin-top: 5px;
+  margin-left: 0 !important;
+}
+.contentRequestsCardTableRow {
+  margin-bottom: 5px;
+  display: flex;
+  background: white !important;
+  background: #ffffff;
+  border: 1px solid #f0f3f9;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 16px;
+}
+
+.recentTable {
+  border: none !important;
+}
+.topVotedTable {
+  border: none !important;
+}
+
+.contentRequestsCardTableColumn {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.contentRequestsCardTableColumnVotes {
+  display: inline-block;
+}
+
+.contentRequestsCardTableColumn:hover {
+  background: transparent !important;
+}
+
+.contentRequestsCardHighlightedUpvoteButton {
+  display: flex !important;
+  flex-direction: column !important;
+  border: none !important;
+  height: unset;
+  padding: 0;
+  background: none;
+  color: var(--light-blue) !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: none;
+  }
+}
+
+.upVoteBtnContainer {
+  margin-right: 1.5rem;
+  position: relative;
+}
+
+.contentRequestsCardUpvoteButton {
+  display: flex !important;
+  flex-direction: column !important;
+  border: none !important;
+  height: unset;
+  padding: 0;
+  background: transparent;
+}
+
+.contentRequestsCardUpvoteIcon {
+  padding-bottom: 2.5px;
+}
+
+.contentRequestsFormSubmitButton {
+  height: 50px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--white);
+  background: var(--theme-blue);
+  border-radius: 2px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}

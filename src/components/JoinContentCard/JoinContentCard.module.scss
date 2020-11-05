@@ -1,0 +1,140 @@
+.joinContentCard {
+  cursor: pointer;
+  margin: 20px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  transition: all 0.2s;
+  padding: 1rem;
+}
+
+.joinContentCard:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+.joinContentCardWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.joinContentCardThumbnailContainer {
+  position: relative;
+}
+
+.joinContentCardContentTypeTag {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  // letter-spacing: 0.75px;
+}
+
+.joinContentCardContentTypeTagIcon {
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.joinContentCardThumbnailImage {
+  width: 267px;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 171px;
+}
+
+.joinContentCardDescriptionWrapper {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+
+.timeSinceString {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+  color: black;
+  margin: 15px 5px 5px 10px;
+}
+
+.joinContentCardDetailsContainer {
+  flex: 1;
+  color: rgba(0, 0, 0, .95);
+  padding: 0 0 0 1.5rem;
+  font-weight: 500;
+  display: flex;
+  font-size: 1.15em;
+  flex-direction: column;
+}
+
+.joinContentStatsContainer {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.joinContentMetaDataContainer {
+  margin-left: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+.joinContentCardCountText {
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: black;
+}
+
+.joinContentCardTimeElapsedText {
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: black;
+}
+
+.joinContentCardTimeElapsedDescText {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.joinContentCardFooter {
+  margin-top: auto;
+}
+
+.joinContentCardRatingContainer {
+  margin-bottom: 0.5rem;
+}
+
+.joinContentCardRatingText {
+  font-size: 12px;
+  margin-left: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.joinContentCardNumDescText {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.joinContentCardButton{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.joinContentCardDivider{
+  margin: 0 .5rem;
+  font-weight: 300;
+  font-size: 15px;
+  opacity: .5;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.joinContentCardPlaylistRatingStarImg{
+  margin-bottom: 2.5px;
+}

@@ -1,0 +1,314 @@
+@import "assets/variables.scss";
+@import "./AddCreatorDetails.media.scss";
+
+:root {
+  --brand-color: #61dafb;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-color: #f8f9fe !important;
+  justify-content: center;
+}
+
+.signupRoot {
+  margin: 1rem;
+}
+
+.registerCreatorCard {
+  box-shadow: 4px 4px 8px 2px #d8dff0;
+  border-radius: 3px;
+  background-color: #fff;
+  border-color: transparent;
+  margin: 40px auto;
+  width: 90vw;
+  padding: 5vh 3vw;
+  max-width: 800px;
+
+  input,
+  button {
+    height: $btn_input_height;
+  }
+
+  :global {
+    .ant-upload-list-item-name {
+      padding-right: 61px;
+    }
+  }
+}
+
+.registerCreatorSkillsCard {
+  box-shadow: 4px 4px 8px 2px #d8dff0 !important;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  border-color: transparent !important;
+  margin: 0;
+  width: 90vw !important;
+  padding: 20px !important;
+  max-width: 600px !important;
+}
+
+.signupForm {
+  margin: auto !important;
+  padding: 0px !important;
+  background-color: #fff !important;
+  width: 100% !important;
+}
+
+.alertMessage {
+  margin: 2rem 0 0 0;
+}
+
+.signupFormTitle {
+  font-size: 24pt;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  text-align: center;
+  color: #18405c;
+}
+
+.signupFormSubtitle {
+  color: #677989;
+  font-size: 14pt;
+  text-align: center;
+  margin: 10px;
+}
+
+.signupFormField {
+  margin: 20px 0 !important;
+  margin-bottom: 5px !important;
+}
+
+.skillFormItem {
+  margin-bottom: 1rem !important;
+}
+
+.selectSkillInput {
+  margin-right: 1rem;
+}
+
+.signupFormHalfSizeField {
+  margin: 20px 0;
+  width: 50%;
+  float: left;
+}
+hr {
+  margin: 1rem 0;
+  border: 0.5px solid #d8dff0;
+}
+.signupFormCard {
+  box-shadow: 4px 4px 8px 2px #d8dff0 !important;
+  width: 500px !important;
+}
+
+.submitButton {
+  margin-top: 2rem;
+  font-weight: bold;
+  border-width: 0px !important;
+  color: #fff !important;
+  font-size: 11pt !important;
+  width: 100% !important;
+  height: 40px !important;
+  border-radius: 22.5px !important;
+  box-shadow: 0 1px 3px 0 rgba(162, 199, 234, 0.32) !important;
+  background-image: linear-gradient(to left, #54c1ff, #4da7ff) !important;
+}
+
+.redirectButton {
+  width: 100%;
+  text-align: right;
+}
+
+.headerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.signupFormGrid {
+}
+
+.signupFormRow {
+  width: 100%;
+}
+
+.signupFormColumn {
+  overflow: hidden;
+  width: 40%;
+}
+
+.signupViewGridArea {
+  height: 100%;
+}
+
+.signupViewGridRow {
+  width: 100% !important;
+  padding: 0 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 13%;
+}
+
+.navbarContainer {
+  width: 100%;
+  padding-right: 100px;
+}
+
+.signupViewLeftSideContent {
+  width: 50%;
+  float: left;
+  padding: 0 3%;
+}
+
+.signupViewRightSideContent {
+  float: right;
+  width: 50%;
+  padding: 0 3%;
+}
+
+@media (min-width: 414px) {
+  .signupFormCard {
+    padding: 40px !important;
+  }
+}
+
+@media (min-width: 550px) {
+  .signupFormCard {
+    width: 450px !important;
+    padding: 50px !important;
+  }
+}
+
+.signUpFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authBtnFacebook {
+  width: 100%;
+  margin: 10px 0;
+  height: 40px;
+  background-color: #4264ab;
+}
+
+.submitSignupFormButton {
+  width: 100%;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+.divResumeUpload {
+  display: flex;
+  flex-direction: column;
+}
+
+.formCardTitle {
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: 28px !important;
+  line-height: 28px !important;
+  color: #000000 !important;
+  text-align: center;
+  margin-bottom: 1rem !important;
+}
+
+.formCardMainSubtitle {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 1rem;
+  color: #000000;
+  opacity: 0.7;
+  letter-spacing: unset;
+  line-height: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.formCardSubtitle {
+  margin-top: 15px;
+  margin-bottom: 25px !important;
+  font-size: 1.1rem;
+  color: #000000;
+  opacity: 0.7;
+  letter-spacing: unset;
+  line-height: 20px;
+}
+
+.creatorDetailsFormSectionDivider {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(0, 0, 0);
+  height: 2px;
+}
+
+.uploadButtonField {
+  background-color: #f3f7fc;
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+
+  :global {
+    .header {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+    }
+
+    h1 {
+      font-size: 15px;
+      color: #0000008c;
+      letter-spacing: 0px;
+      margin: 0;
+    }
+
+    .uploadBtnContainer {
+      display: block;
+    }
+
+    .ant-upload-select {
+      width: 100%;
+      display: block;
+      text-align: right;
+      margin-top: -4.4rem;
+    }
+
+    .ant-upload-list-item {
+      margin-top: 2rem;
+    }
+
+    .ant-upload-list-item-card-actions {
+      margin-right: 1rem;
+    }
+
+    button {
+      margin-right: 1rem;
+    }
+  }
+
+  .subHeading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #00000063;
+    line-height: 2rem;
+    margin: 0 !important;
+  }
+}
+
+.basicInfoHeader {
+  margin-top: 4rem !important;
+}
+
+.uploadFileButton {
+  margin-right: 0;
+  margin-left: auto !important;
+}

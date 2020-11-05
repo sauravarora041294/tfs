@@ -1,0 +1,110 @@
+$card_margin_left: 17px;
+
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+  .resourceCardVerticalOrientation {
+    max-width: unset;
+
+    .cardVerticalOrientationRow {
+      align-items: unset;
+    }
+
+    .cardDescriptionTextVerticalOrientation {
+      display: block;
+      max-height: unset;
+    }
+
+    .searchResultContentContainerVerticalOrientation {
+      display: block;
+    }
+  }
+}
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .resourceCardVerticalOrientation {
+    .cardDescriptionTextVerticalOrientation {
+      display: none;
+    }
+  }
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .searchResultContentContainerVerticalOrientation {
+    height: 110px;
+  }
+  .resultsRow,
+  .resultsRowVerticalOrientation {
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: start !important;
+    overflow: auto;
+    padding: 0 1rem;
+
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
+    &::-webkit-scrollbar {
+      /** WebKit */
+      display: none;
+    }
+  }
+  .resultsRow {
+    padding: 0 !important;
+  }
+
+  .defaultView {
+    & > ul {
+      padding: 0;
+    }
+  }
+
+  .defaultViewSectionHeader {
+    font-size: 1.5rem !important;
+  }
+
+  .qualityTagsContainer {
+    margin-top: 1rem !important;
+  }
+
+  .cardCreatorContainer {
+    align-self: center !important;
+  }
+
+  .learnMoreLink {
+    font-size: 11px !important;
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  // .resultsRow {
+  //   padding-left: 0 !important;
+  // }
+  .searchResultContentContainerVerticalOrientation {
+    height: 110px;
+  }
+  .forceFlexWrap {
+    flex-wrap: wrap !important;
+  }
+  .minimalCard {
+    margin-right: 0.875rem !important;
+
+    .minimalCardFooterContainer {
+      flex-direction: row;
+      justify-content: space-between !important;
+      align-items: center !important;
+    }
+  }
+
+  .minimalCardNew {
+    height: 370px !important;
+  }
+
+  .defaultViewSectionHeader {
+    font-size: 1.3rem !important;
+  }
+
+  .resourceCardVerticalOrientation {
+    padding: 0.5rem !important;
+  }
+}

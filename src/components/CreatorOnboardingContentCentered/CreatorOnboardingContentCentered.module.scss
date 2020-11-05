@@ -1,0 +1,44 @@
+.viewContainer {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.viewTitleContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.viewTitle {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+  line-height: 149%;
+}
+
+.viewImageContainer {
+  width: 15rem;
+  height: 15rem;
+  margin-bottom: 3rem;
+}
+
+.viewContentContainer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.viewContentText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #000000;
+}

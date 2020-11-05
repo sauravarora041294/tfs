@@ -1,0 +1,2 @@
+interface CreatorOnboardingData {}
+export {};

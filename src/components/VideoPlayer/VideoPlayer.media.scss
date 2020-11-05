@@ -1,0 +1,29 @@
+@import "scss/main.scss";
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+}
+
+// For screen with size between 400px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .nextVideoButton {
+    width: 30px !important;
+    margin-top: 1px !important;
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .nextVideoButton {
+    width: 30px !important;
+    margin-top: 1px !important;
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

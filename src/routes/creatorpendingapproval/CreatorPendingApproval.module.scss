@@ -1,0 +1,35 @@
+@import "assets/variables.scss";
+@import "./CreatorPendingApproval.media.scss";
+$max-width: 405px;
+
+.statusCard {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 10vh;
+
+  :global {
+    .ant-result-title {
+      max-width: $max-width;
+      margin: auto;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .ant-result-subtitle {
+      color: #000000;
+      max-width: $max-width;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+    .ant-result-icon {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  button {
+    height: 2.6rem;
+    width: 9rem;
+  }
+}

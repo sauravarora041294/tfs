@@ -1,0 +1,119 @@
+@import "scss/main.scss";
+
+$height: 2.3rem;
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .linkedinField {
+    height: unset;
+  }
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+}
+
+// For screen with size between 400px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .registerCreatorCard {
+    margin: 0 !important;
+    width: 100% !important;
+
+    input,
+    button {
+      height: $height !important;
+    }
+
+    :global {
+      .ant-form-item {
+        margin-bottom: 1rem !important;
+      }
+
+      .ant-card-body {
+        padding: 0.5rem !important;
+      }
+    }
+
+    .formCardTitle {
+      text-align: unset !important;
+      font-size: 1.7rem !important;
+    }
+
+    .formCardMainSubtitle {
+      padding-left: unset !important;
+      padding-right: unset !important;
+      text-align: unset !important;
+    }
+  }
+
+  .uploadButtonField {
+    :global {
+      .ant-upload-select {
+        text-align: unset !important;
+        margin-top: unset !important;
+        margin-left: 1rem !important;
+      }
+    }
+  }
+
+  form {
+    .formCardSubtitle {
+      font-size: 1rem !important;
+      margin-top: 0 !important;
+      margin-bottom: 1rem !important;
+    }
+
+    h4 {
+      font-size: 1rem !important;
+    }
+
+    .basicInfoHeader {
+      margin-top: 2rem !important;
+      font-size: 1.3rem !important;
+    }
+  }
+
+  .creatorDetailsFormSectionDivider {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .linkedinField {
+    height: 100% !important;
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .linkedinField {
+    height: 100% !important;
+  }
+  .registerCreatorCard {
+    :global {
+      .ant-card-body {
+        padding: 0 !important;
+      }
+    }
+
+    .formCardTitle {
+      font-size: 1.5rem !important;
+    }
+
+    form h4 {
+      font-size: 1.1rem !important;
+    }
+
+    .formCardSubtitle {
+      margin-top: 0 !important;
+      margin-bottom: 1rem !important;
+    }
+
+    .creatorDetailsFormSectionDivider {
+      margin-bottom: 1rem !important;
+      margin-top: 1.5rem !important;
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

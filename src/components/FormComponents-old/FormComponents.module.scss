@@ -1,0 +1,101 @@
+@import "assets/variables.scss";
+@import "scss/main.scss";
+
+.formField {
+  margin: 20px 0;
+}
+
+.label {
+  height: 19px !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #a7bed4 !important;
+}
+
+.inputField {
+  height: $btn_input_height;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 15px;
+
+  background-color: #f1f4fb !important;
+  color: #677989 !important;
+  border-color: transparent !important;
+  border-width: 0px !important;
+}
+
+.errorMessage {
+  color: #ff0000;
+}
+
+.check_price {
+  height: 42px;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.73px;
+  text-align: center;
+  color: #4d5a69;
+  margin: 5px 0;
+}
+
+.check_description {
+  height: 18px;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.31px;
+  text-align: center;
+  color: #a7bed4;
+  margin: 5px 0;
+}
+
+.check_img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin: 10px;
+}
+
+.checkActive {
+  width: 175px;
+  height: 134px;
+  border-radius: 3px;
+  border: solid 2px #4daaff;
+  background-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.checkInActive {
+  width: 160px;
+  height: 122px;
+  border-radius: 3px;
+  border: solid 1.5px #cfe0ef;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+@media (max-width: 450px) {
+  .checkActive {
+    width: 40vw;
+    margin-bottom: 10px;
+  }
+
+  .checkInActive {
+    width: 35vw;
+  }
+}

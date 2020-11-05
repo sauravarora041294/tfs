@@ -1,0 +1,89 @@
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.progressSectionHeadingContainer {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.progressSectionHeadingNum {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: #859fb8;
+  margin-right: 1rem;
+}
+
+.progressSectionHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #47515f;
+}
+
+.progressSectionSubheadingsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.progressSectionSubheadingContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+}
+
+.progressSectionSubheadingContainerActive {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+  background: #d2e7ff;
+}
+
+.progressSectionSubheadingIconCompleted {
+  color: #51d27f;
+  font-size: 1.5rem;
+}
+
+.progressSectionSubheadingCompleted {
+  margin-left: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 173%;
+  display: flex;
+  align-items: center;
+  color: #51d27f;
+  height: 3rem;
+}
+
+.progressSectionSubheading {
+  padding-left: 2.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 173%;
+  display: flex;
+  align-items: center;
+  color: #47515f;
+  height: 3rem;
+}
+
+.progressSectionSubheadingActive {
+  padding-left: 2.5rem;
+  height: 3rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 173%;
+  display: flex;
+  align-items: center;
+  color: #1890ff;
+}

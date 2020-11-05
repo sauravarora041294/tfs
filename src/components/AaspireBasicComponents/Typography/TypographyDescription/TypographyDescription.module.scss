@@ -1,0 +1,50 @@
+@import "scss/main.scss";
+
+.TypographyDescription {
+  display: inline-block;
+
+  :global {
+    .pageHeaderDescription {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.22rem;
+      line-height: 166%;
+      color: $font--dark-grey;
+    }
+
+    .primaryDescription {
+      font-weight: 400;
+      font-size: 1.05rem;
+      color: $font--grey;
+      display: inline-block;
+      line-height: 180%;
+    }
+
+    .secondaryDescription {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 170%;
+      color: $font--grey;
+    }
+
+    .ternaryDescription {
+      font-weight: 400;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 20px;
+      text-align: center;
+      color: $font--grey;
+    }
+
+    .centered {
+      text-align: center;
+      display: block;
+    }
+
+    .blue {
+      color: $font---blue;
+    }
+  }
+}
+
+@import "./TypographyDescription.media.scss";

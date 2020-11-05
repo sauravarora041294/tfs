@@ -1,0 +1,68 @@
+@import "scss/main.scss";
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+}
+
+// For screen with size between 400px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .statusCard {
+    margin-top: unset !important;
+    min-height: calc(100vh - 4rem);
+
+    :global {
+      .ant-result {
+        padding: 4rem 1rem !important;
+      }
+
+      .ant-card-body {
+        padding: 0;
+      }
+
+      .ant-result-title {
+        font-size: 1.2rem !important;
+      }
+
+      .ant-result-subtitle {
+        font-size: 1rem !important;
+      }
+
+      .ant-result-icon {
+        margin-bottom: 2rem !important;
+      }
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .statusCard {
+    :global {
+      .ant-result {
+        padding: 4rem 1rem !important;
+      }
+
+      .ant-result-title {
+        font-size: 1rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+
+      .ant-result-subtitle {
+        font-size: 0.9rem !important;
+      }
+    }
+
+    button {
+      height: 2rem !important;
+      width: 7rem;
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

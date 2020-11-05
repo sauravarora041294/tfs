@@ -1,0 +1,22 @@
+@import "assets/variables.scss";
+
+.listItem {
+  height: 60px !important;
+}
+
+.shiftButton {
+  margin: 0 0 !important;
+  padding: 1px 0 !important;
+}
+
+.itemTitle {
+  font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  margin-left: 15px;
+  width: 100%;
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}

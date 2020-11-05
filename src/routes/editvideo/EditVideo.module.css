@@ -1,0 +1,63 @@
+@import "assets/variables.scss";
+
+.editVideoRoot {
+  padding: 0;
+}
+
+.editVideoRootGrid {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+
+.resourceInfoSectionContainer {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 1vw !important;
+  padding-top: 4vh !important;
+  padding-bottom: 5vh !important;
+  height: 100vh;
+}
+.pageHeaderSubtitleText {
+  font-size: 12pt;
+}
+.resourceInfoSectionHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editVideoDetailsFormSubmitButton {
+  margin-left: 1vw;
+}
+
+.editVideoDetailsFormButtonGroup {
+  display: flex !important;
+  justify-content: right !important;
+}
+
+.resourcePreviewContainer {
+  padding-left: 2vw !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 3vh !important;
+  padding-bottom: 5vh !important;
+}
+
+.pageHeader {
+  margin-top: 20px !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.cardHeaderText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  font-size: 15pt !important;
+  font-weight: 600;
+}
+
+.alertMessage {
+  margin: 2rem 0 0 0 !important;
+}

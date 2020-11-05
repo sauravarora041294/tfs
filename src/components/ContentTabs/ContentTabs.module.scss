@@ -1,0 +1,55 @@
+@import "scss/main.scss";
+
+.ContentTabs {
+  :global {
+    .ant-tabs {
+      .ant-tabs-tab {
+        font-weight: 400;
+        padding-bottom: 10px;
+        font-size: 1.2rem;
+        color: #b0b4b8;
+        letter-spacing: 1px;
+
+        &:last-child {
+          margin-right: 40px;
+        }
+      }
+
+      .ant-tabs-extra-content {
+        display: flex;
+
+        input {
+          font-weight: 500;
+          font-size: 1.2rem;
+          letter-spacing: 1px;
+          color: $font--dark-grey;
+        }
+      }
+
+      .ant-tabs-ink-bar {
+        height: 4px;
+      }
+
+      .ant-tabs-tab-active {
+        color: $font---blue !important;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .centered {
+    :global {
+      .ant-tabs-bar {
+        font-weight: 500;
+        margin: 0;
+        padding-left: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@import "./ContentTabs.media.scss";

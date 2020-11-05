@@ -1,0 +1,22 @@
+.signupModalFade {
+  position: relative;
+  display: block;
+  height: 200px;
+  margin-top: -350px;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)) repeat scroll 0%
+    0%;
+}
+
+.signupModalContainer {
+  margin-bottom: 50px;
+}
+
+.signupModalAuthContainer{
+  display: flex;
+  align-items: center;
+}
+
+.signupModalLogin{
+  margin: 0 !important;
+}

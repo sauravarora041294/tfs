@@ -1,0 +1,38 @@
+@import "scss/main.scss";
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .userSideSearchRoot {
+    padding: 0;
+  }
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .userSideSearchRoot {
+    min-height: unset;
+  }
+
+  .searchResultsView {
+    padding: 1rem 0rem;
+  }
+}
+
+// For screen with size between 0px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .searchResultsView {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+
+    :global {
+      .ant-page-header-heading-title {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+}

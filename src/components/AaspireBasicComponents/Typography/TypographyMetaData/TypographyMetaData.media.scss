@@ -1,0 +1,50 @@
+@import "scss/main.scss";
+
+// For screen with size between 991px to 1199px
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+}
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+}
+
+// For screen with size between 575px to 767px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .TypographyMetaData {
+    .metaDataValue {
+      font-size: 1.1rem;
+    }
+
+    .metaDataLabel {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+// For screen with size between 400px to 575px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .TypographyMetaData {
+    .metaDataValue {
+      font-size: 1rem;
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .TypographyMetaData {
+    .metaDataLabel {
+      font-size: 1rem;
+    }
+
+    .metaDataValue {
+      &.fontSize__small {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

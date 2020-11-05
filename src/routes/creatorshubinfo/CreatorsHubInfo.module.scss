@@ -1,0 +1,95 @@
+@import "assets/variables.scss";
+
+.creatorsHubInfoRoot {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.singlePoint {
+  margin: 15px 10px 0 10px;
+  width: 100%;
+  display: flex;
+  img {
+    width: 15px;
+    margin-right: 1rem;
+  }
+}
+.collapsePanelHeader {
+  font-weight: 500;
+  font-family: inherit;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 0.02em !important;
+}
+.pointWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.pageHeader {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.pageHeaderSubtitleText {
+  font-size: 13pt;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.editMissionRootGrid {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+  margin-top: 5px !important;
+}
+
+.infoCardsRow {
+  margin: 0 !important;
+}
+.missionInfoSectionContainer {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 1vw !important;
+  margin-bottom: 0 !important;
+
+  .ant-collapse-header {
+    font-weight: 500 !important;
+  }
+}
+
+.missionSectionsContainer {
+  padding-left: 2vw !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.editMissionRoot {
+  padding: 0;
+}
+
+.formCardTitle {
+  text-align: center !important;
+  font-size: 20pt !important;
+  font-weight: 500 !important;
+  margin-bottom: 15px !important;
+}
+
+.formCardSubtitle {
+  margin-bottom: 15px;
+  justify-content: center !important;
+}
+
+.formCardInputItem{
+  margin-bottom: 2rem !important;
+}
+
+.formCardButtonItem{
+  margin-bottom: 0 !important;
+}
+
+.contactFromFinishButton{
+  width: 100%;
+  height: 3rem !important;
+}

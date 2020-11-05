@@ -1,0 +1,15 @@
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listItemLoader {
+  margin: 1rem;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+
+@import "./InfiniteScroll.media.scss";

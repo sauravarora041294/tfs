@@ -1,0 +1,17 @@
+@import "assets/variables.scss";
+@import "./CreatorSkillsDynamicFormItemSet.media.scss";
+
+.skillFormItem {
+  margin-bottom: 1rem !important;
+}
+
+.selectSkillRow {
+  display: flex;
+  align-items: center;
+
+  .selectDropdownContainer {
+    margin-right: 1rem;
+    width: 100%;
+    padding-bottom: 3px;
+  }
+}

@@ -1,0 +1,46 @@
+@import "scss/main.scss";
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .invitedWhiteCardForm {
+    width: 90% !important;
+  }
+  .welcomeText {
+    font-size: 1.5rem;
+  }
+  .getStartedStepsWrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .getStartedWrapper {
+    margin-top: 100px;
+  }
+  .talkingPointsWrapper {
+    margin-top: 100px;
+  }
+}
+
+// For screen with size between 0px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .talkingPointsGraphicWrapper {
+    margin-top: 20px;
+  }
+  .benefitsWrapper {
+    padding: 1.5rem !important;
+  }
+  .getStartedWrapper {
+    padding: 1.5rem !important;
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

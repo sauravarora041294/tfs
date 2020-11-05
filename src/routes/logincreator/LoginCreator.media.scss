@@ -1,0 +1,50 @@
+@import "scss/main.scss";
+
+// For screen with size between 768px to 992px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .thirdPartyAuthContainer {
+    justify-content: center !important;
+
+    :global {
+      .ant-btn {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+// For screen with size between 576px to 768px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .formWrapper {
+    clip-path: none !important;
+    width: 100% !important;
+    padding: unset !important;
+  }
+}
+
+// For screen with size between 0px to 576px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .loginFormFooter {
+    margin-top: 1rem !important;
+  }
+
+  .loginForm {
+    :global {
+      .backButton {
+        margin-bottom: 2rem !important;
+      }
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .loginForm {
+    min-width: 300px !important;
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

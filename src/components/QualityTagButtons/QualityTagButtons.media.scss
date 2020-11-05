@@ -1,0 +1,12 @@
+@import "scss/main.scss";
+
+@media (max-width: 576px) {
+  .qualitTagButtonButtonContainer {
+    margin-top: 20px;
+    align-items: flex-start !important;
+  }
+  .qualityTagButtonContainer {
+    padding: 1rem 1.5rem !important;
+    margin: 2rem 0 !important;
+  }
+}

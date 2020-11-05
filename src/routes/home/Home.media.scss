@@ -1,0 +1,256 @@
+@import "scss/main.scss";
+
+// For screen with size between 991px to 1199px
+@media (min-width: 1600px) {
+  .landingPageFooter {
+    background-image: unset;
+  }
+
+  .faqSection {
+    margin-top: 9rem;
+    background-color: #132135;
+    padding: 4vw 4vw;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .footerSection {
+    background-color: #132135;
+    width: 100%;
+    margin-top: -1rem;
+  }
+}
+
+// For screen with size between 991px to 1199px
+@media (max-width: map-get($grid-breakpoints,"xl")) {
+  .introductionSection {
+    .introductionBody {
+      .introductionBodyContent {
+        .introductionBodyContentTextContainer {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .landingPageFooter {
+    background-image: unset;
+  }
+
+  .faqSection {
+    margin-top: 9rem;
+    background-color: #132135;
+    padding: 4vw 4vw;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .footerSection {
+    margin-top: 0;
+    background-color: #132135;
+    width: 100%;
+  }
+}
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .headerSection {
+    .headerStatistics {
+      .headerStatisticsTitle {
+        font-size: 20px;
+      }
+
+      .headerStatisticsSubtitle {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .introductionSection {
+    .introductionText {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      font-size: 24px;
+    }
+
+    .introductionBody {
+      .introductionBodyContent {
+        .introductionBodyContentTextContainer {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+
+  .achieveSection {
+    .achieveSectionContent {
+      .header {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .findCollectionsSection {
+    .collectionCards {
+      flex-direction: column;
+      align-items: center;
+
+      .card:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  .faqSection {
+    .faqCollapseContainer {
+      width: unset;
+    }
+  }
+}
+
+// For screen with size between 575px to 767px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .headerSection {
+    .headerText {
+      .rocketImageContainer,
+      .girlImageContainer {
+        display: none;
+      }
+    }
+
+    .headerStatistics {
+      flex-direction: column;
+
+      & > div:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .introductionSection {
+    .introductionBody {
+      .introductionBodyContent {
+        .introductionBodyImageContainer {
+          display: none;
+        }
+        .introductionBodyContentTextContainer {
+          font-size: 18px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  .achieveSection {
+    .achieveSectionContent {
+      padding-left: unset;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 6rem;
+      text-align: center;
+      padding: 0 4vw;
+    }
+
+    .imgContainer {
+      display: none;
+    }
+  }
+
+  .featuresSection {
+    .featuresBody {
+      flex-direction: column;
+
+      .feature:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  .findCollectionsSection {
+    margin-top: 4rem;
+  }
+
+  .guaranteeSection {
+    .guaranteeSectionText {
+      font-size: 20px;
+    }
+  }
+}
+
+// For screen with size between 400px to 575px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .headerSection {
+    .headerText {
+      .headerTextTitle {
+        font-size: 30px;
+      }
+
+      .headerTextDescription {
+        font-size: 16px;
+      }
+
+      .headerTextButtons {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .faqSection {
+    .faqSectionTitle {
+      font-size: 20px;
+    }
+
+    .faqCollapseContainer {
+      margin-top: 1rem;
+
+      :global {
+        .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+          font-size: 15px;
+          line-height: unset;
+        }
+
+        .ant-collapse-content-box {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .horizontalLine {
+      margin-top: 2rem;
+    }
+  }
+
+  .footerSection {
+    .firstRow {
+      flex-direction: column;
+      align-items: center;
+
+      .aboutUsAndInfoContainer {
+        margin-top: 2rem;
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .introductionSection {
+    .introductionText {
+      font-size: 20px;
+    }
+    .introductionBody {
+      .introductionBodyContent {
+        .introductionBodyContentTextContainer {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

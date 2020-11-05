@@ -1,0 +1,18 @@
+@import "assets/variables.scss";
+@import "scss/main.scss";
+@import "./ContentCard.media.scss";
+
+.contentCard {
+  padding: 2rem 1.5rem;
+  background: white;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px $box-shadow;
+
+  :global {
+    .ant-collapse {
+      margin-top: 2rem;
+      border: 1px solid $grey-light;
+    }
+  }
+}

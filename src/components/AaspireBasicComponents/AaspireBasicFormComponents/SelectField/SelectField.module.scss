@@ -1,0 +1,22 @@
+@import "scss/main.scss";
+
+.SelectField {
+  width: 100%;
+  margin: 0 !important;
+  
+  :global {
+    .ant-select-selection {
+      min-height: $btn_input_height !important;
+    }
+
+    .ant-select-selection--multiple {
+      padding-bottom: 10px;
+    }
+
+    .ant-select-selection__rendered {
+      top: 5px;
+    }
+  }
+}
+
+@import "./SelectField.media.scss";

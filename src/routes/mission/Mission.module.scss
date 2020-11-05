@@ -1,0 +1,440 @@
+@import "assets/variables.scss";
+@import "scss/main.scss";
+
+:global {
+  .missionTabs {
+    padding-bottom: 3rem;
+  }
+}
+.smallScreenAboutCard {
+  box-shadow: none !important;
+}
+.missionHeaderGrid {
+  padding: 8vh 10vw 4vh !important;
+  min-height: 40vh;
+  background-color: white;
+}
+
+.missionInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+
+  .missionInfoSubContainer {
+    max-width: 40rem;
+  }
+}
+
+$mission_header_height: 67vh;
+.missionHeaderContainer {
+  display: flex;
+  justify-content: center;
+  height: $mission_header_height;
+  width: 100vw;
+  color: black;
+  background-color: white;
+
+  .missionImageContainer {
+    overflow: hidden;
+    :global {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.missionHeaderLabel {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 30px;
+    margin-right: 1rem;
+  }
+}
+
+:global {
+  .blueColor {
+    color: $font---blue;
+  }
+}
+
+.missionHeaderIcon {
+  font-size: 14pt;
+  margin-right: 10px;
+}
+
+.missionHeaderMetadata {
+  :global {
+    span {
+      margin-right: 1rem;
+    }
+  }
+  .missionHeaderMetadataNumVideosText {
+    margin-right: 0 !important;
+  }
+  .missionHeaderMetadataNumVideosContainer {
+    margin-right: 0 !important;
+  }
+}
+
+.missionThumbnail {
+  margin-top: 4vh;
+  margin-bottom: -15vh;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-left: 1vw;
+  box-shadow: 2px 15px 15px 2px $box-shadow;
+}
+.aboutAndExpertContainerColumn {
+  padding: 2.2rem;
+  background: white;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px $box-shadow;
+
+  .missionSecondarySubtitle {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: $font--dark-grey;
+  }
+
+  .missionTernarySubtitle {
+    font-size: 0.8rem;
+    color: $font--black;
+    line-height: 1.4;
+  }
+
+  :global {
+    .ant-collapse {
+      margin-top: 2rem;
+      border: 1px solid $grey-light;
+    }
+  }
+}
+.missionSecondaryHeader {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.missionTernaryHeader {
+  @extend .missionSecondaryHeader;
+  font-size: 1rem;
+}
+
+.missionSecondarySubtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 28px;
+  color: $font--dark-grey;
+  margin-top: 0.4rem;
+}
+
+.missionTernarySubtitle {
+  @extend .missionSecondarySubtitle;
+  font-size: 0.8rem;
+  color: $font--grey;
+  line-height: 1.4;
+}
+
+.missionSubBannerPoints {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  color: black;
+  text-align: left;
+  justify-content: flex-start;
+
+  &::after {
+    content: "";
+    flex: auto;
+  }
+
+  img {
+    width: 20px;
+    margin-right: 1rem;
+  }
+}
+
+.missionSubBannerPoint {
+  font-style: normal;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: black;
+  max-width: 200px;
+  text-align: left;
+  margin: 1rem 1.8rem;
+
+  img {
+    width: 20px;
+    margin-right: 1rem;
+  }
+}
+
+.missionPanel {
+  height: 100% !important;
+  margin-right: 1rem;
+  margin-top: 6rem;
+  border: 1px solid rgba(16, 16, 16, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(93, 38, 132, 0.03);
+  border-radius: 5px;
+}
+
+.contentFeedViewContainer {
+  margin-top: 3rem;
+}
+
+.featuredContainer {
+  margin-top: 3rem;
+}
+
+.recommendedContainer {
+  margin-top: 3rem !important;
+}
+
+.recommendedPublicContainer {
+  margin-top: 3rem;
+}
+
+.recentlyAddedContainer {
+  margin-top: 3rem;
+}
+
+.missionDefaultViewContainer {
+  margin: 0 1rem 0 1rem;
+
+  .missionDefaultViewContainerCol {
+    & > div:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.missionViewRoot {
+  background-color: var(--background-blue);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.contentRequestsWrapper {
+  margin-top: 36px;
+  background: white;
+  border: 1px solid rgba(16, 16, 16, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(93, 38, 132, 0.03);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+
+  :global {
+    .ant-table-placeholder {
+      border: none;
+    }
+  }
+}
+
+.searchResultHeader {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.searchBarInput {
+  margin-left: -10px;
+  &:hover,
+  &:focus {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+  // display: none;
+  max-width: 125px;
+
+  :global {
+    input {
+      border: 0;
+      font-weight: 500;
+      padding-left: 0;
+      margin-left: 1rem;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.01em;
+      padding-bottom: 0;
+      color: $font--black;
+
+      &:hover,
+      &:focus {
+        border: 0 !important;
+        outline: 0 !important;
+        box-shadow: none !important;
+
+        // To show underline below input box
+        border-bottom: 1px solid $grey-dark !important;
+        border-radius: 0 !important;
+      }
+
+      &::placeholder {
+        /* Most modern browsers support this now. */
+        color: #b0b4b8;
+      }
+    }
+
+    button {
+      box-shadow: none;
+    }
+
+    .ant-input:placeholder-shown {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.01em;
+      color: #b0b4b8;
+    }
+
+    .ant-input-suffix {
+      display: none;
+    }
+  }
+}
+
+.searchIcon {
+  margin: 4px !important;
+}
+
+.missionSearchAndFilterCard {
+  width: 100%;
+}
+
+.searchResultsView {
+  padding: 5vh 5vw;
+  padding-top: 0;
+}
+
+.creatorsListCard {
+  text-align: left !important;
+}
+.creatorsListTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: black;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.creatorsListColumn {
+  border: none !important;
+  padding: 1vh 0 !important;
+
+  &:hover {
+    background: transparent !important;
+  }
+
+  :global {
+    .avatarContainer {
+      max-width: 70px;
+    }
+
+    .creatorDetails {
+      margin-left: 0px;
+    }
+  }
+}
+
+.creatorsListItemTitle {
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.creatorsListItemSubtitle {
+  font-size: 0.9em !important;
+  color: rgba(0, 0, 0, 0.46);
+}
+.largeScreenSearchBarContainer {
+  box-shadow: 0px 8px 15px rgba(93, 38, 132, 0.07);
+  border-radius: 5px;
+}
+
+.smallScreensSearchBarContainer {
+  display: none;
+}
+
+.aboutAndExpertContainer {
+  margin: 30px 4vh;
+  .ant-collapse {
+    background-color: var(--background-blue) !important;
+  }
+}
+
+.missionMainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0 !important;
+  padding: 2rem 1rem !important;
+}
+
+$creator_width: 140px;
+.missionCreatorsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 180px;
+}
+
+.searchRoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 329px;
+  padding-right: 6vw;
+
+  button {
+    border: 0;
+    box-shadow: none;
+  }
+
+  :global {
+    ::placeholder {
+      color: #10101066;
+      opacity: 1; /* Firefox */
+    }
+  }
+}
+
+.missionHeaderDescription {
+  color: black;
+  font-size: 1.22rem;
+  font-weight: 400;
+}
+
+.missionHeaderCollectionLabel {
+  font-size: 1em !important;
+}
+
+.searchResultsCFVList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultsNoData {
+  margin-top: 3rem;
+}
+
+@import "./Mission.media.scss";

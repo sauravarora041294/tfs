@@ -1,0 +1,227 @@
+@import "assets/variables.scss";
+
+.creatorProfileText {
+  margin-top: 2px;
+  font-size: 12pt;
+}
+.creatorProfileFieldLabel {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 11pt;
+}
+
+.profileContentCard {
+  padding: 0 !important;
+}
+
+.profileAvatarContainer {
+  height: 100%;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // margin-left: -25px !important;
+}
+
+.profileContentMetadata {
+  font-size: 12pt;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  padding: 0 !important;
+  letter-spacing: 0.4px;
+}
+
+.profileSkillTag {
+  margin: 0 !important;
+}
+
+.profileHeaderTextContainer {
+  margin-left: 15px;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start !important;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+.popOverContent {
+  padding: 4%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.profileHeaderRow {
+  margin-bottom: 15px;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profileLink {
+  cursor: pointer !important;
+  display: inline-block;
+  :global {
+    .ant-typography {
+      margin: auto;
+      //margin-left: 1rem;
+    }
+
+    .ant-avatar {
+      width: 59px !important;
+      height: 59px !important;
+    }
+
+    .ant-avatar-string {
+      margin-top: 8px;
+      display: block;
+      font-size: 2rem;
+    }
+  }
+}
+
+.profileLink:hover {
+  text-decoration: underline !important;
+}
+
+.creatorProfileName {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.65);
+  letter-spacing: 0.02em;
+}
+
+.creatorProfileRoleTitle {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 0.9em !important;
+  color: rgba(0, 0, 0, 0.46);
+}
+
+.profileContentSkills {
+  margin: auto 0 5px 0 !important;
+  font-size: 11pt;
+  padding: 0 !important;
+}
+
+.profileContentSkillsName {
+  margin: 0 5px 5px 0 !important;
+  padding: 0 5px !important;
+  font-weight: 500;
+}
+
+.profileInfoRow {
+  margin: 10px 0 0 0 !important;
+  padding: 0 !important;
+
+  font-weight: 500;
+  font-style: normal;
+  width: 100%;
+}
+
+.creatorProfileSkillsFieldLabel {
+  width: 100% !important;
+  font-size: 10pt;
+  letter-spacing: 0.4px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+.creatorProfileCompany {
+  font-size: 12pt;
+  font-weight: 400;
+  margin: 2px 0 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileSkillTitle {
+  font-size: calc(11pt + 1vw);
+  font-weight: 600;
+  margin-top: 3 !important;
+  margin-bottom: 1px !important;
+  padding: 0;
+}
+
+.creatorProfileBioContainer {
+  margin: 0 auto 10px auto;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.83);
+}
+
+.creatorProfileDivider {
+  margin: 0 0 10px 0 !important;
+}
+
+.creatorProfileFooter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 !important;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.creatorProfileStats {
+  padding: 0 !important;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.statsDivider {
+  margin: 0 10px;
+  opacity: 0.3;
+}
+.creatorProfileStatsTextNumber {
+  margin: 0 2px 0 0;
+}
+.creatorBioWrapper {
+  line-height: 18px;
+  font-weight: normal;
+  font-size: calc(9px + 0.2vw);
+  letter-spacing: 0.01em;
+  color: #000000;
+  opacity: 0.8;
+}
+.creatorProfileMissionsInfo {
+  font-size: 11pt;
+  font-weight: 400;
+  margin-top: 3 !important;
+  margin-bottom: 1px !important;
+  padding: 0;
+}
+
+.profileInfoSection {
+  margin-bottom: 25px;
+}
+
+.creatorProfileLink {
+  margin: 0 0 0 auto !important;
+  padding: 0 !important;
+  cursor: pointer;
+  font-weight: 500;
+  color: #2db7f5;
+}
+
+.creatorProfileLink:hover {
+  transition: all 0.2s;
+  text-decoration: underline;
+}
+
+.creatorProfileLinkIcon {
+  margin: 0 !important;
+  padding: 0 !important;
+}

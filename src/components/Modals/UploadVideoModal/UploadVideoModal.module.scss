@@ -1,0 +1,144 @@
+:global {
+  .ant-modal-content > .ant-modal-header {
+    border-bottom: none !important;
+    padding: 30px 30px;
+    padding-bottom: 15px;
+  }
+  .ant-modal-content {
+    padding: 15px 30px;
+  }
+}
+
+.modalHeaderTextContainer{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modalHeaderStepsContainer{
+  margin: 2rem 0;
+}
+
+.selectVideoIconContainer{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: none !important;
+  background-color: #ebebeb;
+}
+
+.selectVideoIcon {
+  font-size: 60px;
+  color: #1890ff;
+  margin-top: 70px;
+}
+
+.selectVideoInstructionsContainer{
+  margin: 1rem 0;
+}
+
+.videoDetailsFormViewContainer{}
+
+.videoDetailsFormViewBody{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalFooter{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+.modalFooterBtnCancel{
+  margin-right: 1rem;
+}
+
+.videoDetailsFormThumbnailForm{
+  display: flex;
+}
+
+.videoDetailsFormCustomThumbnailContainer{
+  cursor: pointer;
+}
+
+.videoDetailsFormThumbnailContainer{
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.videoDetailsFormThumbnailUpload{
+  height: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoDetailsFormThumbnailUploadIcon{
+  font-size: 1.5em;
+  margin: 0 0 1rem 0;
+}
+
+.videoDetailsFormCustomThumbnailImg{
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.videoDetailsFormThumbnailImg{
+  height: 116px;
+  width: 166px;
+  object-fit: cover;
+}
+
+.videoDetailsFormDefaultThumbnailLoadingContainer{
+  height: 116px;
+  width: 166px;
+  border: 1px dashed #a1a1a1;
+  background-color: #fcfcfc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoDetailsFormPreviewContainer{
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.videoDetailsFormCustomThumbnailUpload{
+  display: flex;
+  flex-direction: column;
+}
+
+.videoDetailsFormChangeCustomThumbnailButton{
+  margin-top: 5px;
+  margin-left: .75rem;
+}
+
+.videoDetailsVideoPlaceholder{
+  height: 17.5rem;
+}
+
+.videoDetailsFormContainer{
+  width: 50%;
+  padding: 1rem;
+}
+
+.videoDetailsVideoUploadProgressBar{
+  margin-top: 1rem;
+}
+
+.videoDetailsVideoPreviewPlayer{
+  height: 17.5rem !important;
+}

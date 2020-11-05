@@ -1,0 +1,75 @@
+@import "assets/variables.scss";
+
+.navbar {
+  background-color: #fff;
+  border-color: transparent;
+  border-width: 0;
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+
+.navbar_primary {
+  background-color: transparent;
+  border-color: transparent;
+  width: 100%;
+}
+
+.nav_primary > li > a {
+  font-weight: 400;
+  color: #3ba0ff !important;
+}
+
+.nav_brand {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+.brand_link_primary {
+  color: #3ba0ff !important;
+  font-weight: 500;
+}
+
+.link_primary {
+  color: #3ba0ff !important;
+}
+
+.toggle {
+  color: #3ba0ff !important;
+  border-color: #3ba0ff !important;
+}
+
+.toggleImage {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.navbarIcon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  float: left;
+  margin: 0 10px;
+}
+
+.getStartedNavItem {
+  background-color: #3ba0ff;
+  color: #fff;
+  border-radius: 5px;
+  height: 45px;
+}
+
+.nav_get_started > li {
+  padding-top: 10px 0;
+}
+
+.nav_get_started > li > a {
+  margin-top: 5px;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 10pt;
+
+  letter-spacing: 0.6px;
+  background-color: #3ba0ff !important;
+  color: #fff !important;
+}

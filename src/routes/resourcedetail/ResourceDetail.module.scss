@@ -1,0 +1,514 @@
+@import "assets/variables.scss";
+@import "scss/main.scss";
+
+.videoPlayerCard {
+  width: 100% !important;
+  height: auto !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  border: none;
+  height: fit-content;
+  margin-bottom: 25px;
+  margin-top: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0 !important;
+}
+
+.videoHeadingRow,
+.videoDetailsFooter {
+  padding: 1rem 2rem 2rem 2rem;
+}
+.videoHeadingRowRating {
+  color: #f9e26e;
+}
+.videoDetailsFooter {
+  padding-top: 2rem;
+}
+
+.videoHeadingRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.videoHeadingRowTitle {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.videoHeadingRowTitleText {
+  font-weight: 400 !important;
+}
+
+.videoHeadingRowRatingContainer {
+  display: flex;
+  align-items: center;
+
+  .rateThisText {
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: #686f7b;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  .videoHeadingRowRating {
+    margin-left: 1rem;
+  }
+}
+
+.videoMetadata {
+  margin-right: 15px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.videoMetadataText {
+  color: var(--active-font-black-color);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.videoMetadataDivider {
+  margin: 0 3px;
+}
+
+.creatorAvatarRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+
+  :global {
+    .creatorImage {
+      img {
+        width: 50px !important;
+        height: 50px !important;
+      }
+    }
+
+    .profileLink {
+      font-size: 1.1rem;
+      color: #2c3848;
+    }
+  }
+}
+
+.creatorAvatarPlaceholderRow {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.creatorAvatar {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.currentPlayingDuration {
+  height: 100%;
+  width: 100%;
+  margin-left: 0 !important;
+  justify-content: left;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #5c6570;
+  margin-top: 1em;
+}
+
+.currentlyPlayingTagsContainer {
+  height: 100%;
+  width: 100%;
+  margin-left: 0 !important;
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #5c6570;
+  margin-top: 1em;
+}
+
+.resourceDetailQualityTag {
+  box-sizing: content-box;
+  border: none;
+  background-color: rgba(24, 144, 255, 0.1);
+  height: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 3px 11px;
+  margin-right: 16px;
+  border-radius: 5px;
+  color: #1890ff;
+  font-weight: 500;
+}
+
+.resourceDetailRoot {
+  margin: 3vw;
+}
+
+.resourceDetailRightSideCardPlaceholder {
+  height: 600px;
+}
+
+.resourcesDetailPlaylistCard {
+  flex-basis: 1000px;
+  min-width: 450px;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+}
+.sectionVideoCardPlaceholder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+.resourceDetailFeedbackCard {
+  box-shadow: 0 0 5px 0 #d8dff0 !important;
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 5px !important;
+  padding: 15px !important;
+  padding-top: 5px !important;
+  background-color: #fff !important;
+  border-color: transparent;
+}
+
+.resourcesDetailPlaylistCardHeaderContent {
+  padding: 2rem 2rem;
+}
+
+.relatedResourcesContentFeedView {
+  margin-right: 0 !important;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+  width: 61%;
+  margin-top: 30px;
+  padding-top: 17px;
+  .header {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+  .description {
+    font-size: 1rem;
+    line-height: 173%;
+    /* or 28px */
+
+    display: flex;
+    align-items: center;
+
+    color: #47515f;
+    margin-top: 3px;
+  }
+}
+.resourcesDetailPlaylistCardSubHeader {
+  font-size: 18px !important;
+  font-weight: 500;
+  font-style: normal;
+  color: #686f7b;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+
+.resourcesDetailPlaylistCardTruncatedDescription {
+  overflow: hidden;
+  max-height: 40px;
+}
+
+.resourcesDetailPlaylistCardDescriptionButton {
+  margin-top: 10px;
+  color: #1890ff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.resourcesDetailPlaylistSection {
+  padding: var(--padding-playlistCard-Y) 2rem;
+}
+
+.resourcesDetailPlaylistContent {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.resourcesRelatedVideos {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.resourcesDetailPlaylistSectionHeader {
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 156% */
+  font-weight: 500;
+
+  color: #686f7b;
+}
+
+.resourceTileCard {
+  width: 100% !important;
+  padding: var(--padding-playlistCard-Y) var(--padding-playlistCard-X);
+  display: flex;
+}
+
+.resourceTileCardSelected {
+  background-color: rgba(24, 144, 255, 0.05);
+}
+
+.resourceTileCard:hover {
+  background-color: #f4f5fa;
+}
+
+.resourceTileIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.resourceTileIconImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: var(--padding-playlistCard-X);
+  cursor: pointer;
+}
+
+.resourceTileTitleText {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--active-font-black-color);
+  margin-bottom: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.resourceTileExtraInfo {
+  color: rgba(0, 0, 0, 0.6);
+  float: right;
+}
+
+.resourceTilePlaylistText {
+  color: #8da3bc;
+  font-size: 12pt;
+  font-weight: 300;
+  margin: 0;
+}
+
+.mobileResourceDetailRoot {
+  padding: calc(var(--topbar-height) + 5px) 0 50px 0 !important;
+  margin: 0 !important;
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.mobileVideoPlayerContainer {
+  position: sticky;
+  top: calc(var(--topbar-height) + 5px);
+  z-index: 10;
+}
+
+.mobilePageContentContainer {
+  z-index: 9;
+}
+
+.loadingViewGrid {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px !important;
+}
+.noTagsContainer {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.noTagsText {
+  margin-left: 7.5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #2c3848;
+}
+.loadingViewRow {
+  width: 100%;
+  height: 150px;
+  margin: 5px auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.loadingViewSegment {
+  max-width: 650px;
+  height: 150px;
+  border-radius: 3px;
+}
+
+.loadingViewVideoCardSegment {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 5px !important;
+  border-style: none;
+  height: fit-content;
+}
+
+.loadingViewVideoCardImage {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.noContentInPlaylistCard {
+  margin: 10vh 10vw;
+}
+
+$ViewsDurationRatingContainerFontSize: 16px;
+$ViewsDurationRatingContainerTextFontSize: 14px;
+$ViewsDurationRatingContainerStarFontSize: 1.188rem;
+
+.ViewsDurationRatingContainer {
+  display: flex;
+  align-items: center;
+  font-size: $ViewsDurationRatingContainerFontSize;
+
+  :global {
+    .ant-rate-text {
+      font-size: $ViewsDurationRatingContainerFontSize;
+      font-weight: 500 !important;
+    }
+  }
+
+  .cardViewsCount {
+    font-style: normal;
+    font-weight: 500;
+    font-size: $ViewsDurationRatingContainerFontSize;
+    align-items: center;
+    text-align: center;
+    margin-right: 4px;
+    color: black;
+  }
+
+  .cardViewsText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: $ViewsDurationRatingContainerTextFontSize;
+    line-height: 21px;
+    /* or 262% */
+    align-items: center;
+    text-align: center;
+    color: #686f7b;
+  }
+
+  .cardRating {
+    font-size: $ViewsDurationRatingContainerFontSize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    i {
+      font-size: 19px;
+      color: $icon--gold;
+    }
+
+    :global {
+      .ant-rate-text {
+        color: black;
+        margin-left: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .noRatingsText {
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    color: #686f7b;
+    font-size: 14px;
+    line-height: 1.3rem;
+  }
+}
+
+.resourceDetailGrid {
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+  width: 100%;
+
+  :global {
+    .ui.card,
+    .ui.cards > .card {
+      box-shadow: unset;
+    }
+  }
+}
+
+.videoHeadingFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.videoContainer {
+  background-color: white;
+  box-shadow: $box-shadow;
+  margin-right: 3vw;
+  flex-basis: 1700px;
+  min-width: 650px;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+  padding: 0 !important;
+}
+
+.resourceDetailRightSideCardColumn {
+  box-shadow: $box-shadow;
+  display: flex;
+  flex-basis: 1000px;
+  min-width: 450px;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+}
+
+.playlistHeading {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 170%;
+  color: $font--grey;
+}
+
+@import "./ResourceDetail.media.scss";

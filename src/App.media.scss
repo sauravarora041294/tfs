@@ -1,0 +1,55 @@
+@import "scss/main.scss";
+
+// For screen with size between 767px to 991px
+@media (max-width: map-get($grid-breakpoints,"lg")) {
+  .ant-pagination-item {
+    font-weight: 600 !important;
+  }
+}
+
+// For screen with size between 576px to 767px
+@media (max-width: map-get($grid-breakpoints,"md")) {
+  .showAt767px {
+    display: initial;
+  }
+
+  .hideAt767px {
+    display: none;
+  }
+}
+
+// For screen with size between 400px to 575px
+@media (max-width: map-get($grid-breakpoints,"sm")) {
+  .video-react-button {
+    width: 30px !important;
+    margin-left: 5px !important;
+  }
+  .video-react-volume-menu-button {
+    width: 40px !important;
+  }
+  .showAt575px {
+    display: initial;
+  }
+
+  .hideAt575px {
+    display: none;
+  }
+}
+
+// For screen with size between 0px to 400px
+@media (max-width: 400px) {
+  .video-react-button {
+    width: 30px !important;
+    margin-left: 5px !important;
+  }
+  .video-react-volume-menu-button {
+    width: 40px !important;
+  }
+  .ant-pagination-item {
+    font-size: 0.8rem !important;
+  }
+}
+
+// Landscape mode
+@media (max-height: 400px) {
+}

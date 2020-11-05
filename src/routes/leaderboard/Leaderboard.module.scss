@@ -1,0 +1,107 @@
+@import "assets/variables.scss";
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.leaderboardRoot {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.leaderboardListItem {
+  height: 111px;
+}
+
+.leaderboardCard {
+  padding: 0 2rem;
+}
+
+.creatorRank {
+  font-size: 13pt;
+  font-weight: 600;
+  margin: auto 20px;
+}
+
+.creatorProfileText {
+  margin-top: 2px;
+  font-size: 12pt;
+}
+.creatorProfileFieldLabel {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 11pt;
+}
+
+.profileContentCard {
+  margin: 7.5vh 7.5vw;
+  padding: 0 !important;
+}
+
+.profileAvatar {
+  margin: 0 20px !important;
+}
+
+.profileAvatarContainer {
+  display: block;
+  float: left;
+  margin-right: 0px;
+}
+
+.profileHeaderTextContainer {
+  margin: 10px 20px;
+}
+
+.creatorProfileName {
+  font-size: 13pt;
+  font-weight: 600;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileRoleTitle {
+  font-size: 12pt;
+  font-weight: 400;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.creatorProfileCompany {
+  font-size: 12pt;
+  font-weight: 400;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.pointsContainer {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.pageHeader {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.pageHeaderSubtitleText {
+  font-size: 13pt;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media (min-width: 414px) {
+  .registerCreatorSkillsCard {
+    padding: 40px !important;
+  }
+}
+
+@media (min-width: 550px) {
+  .registerCreatorSkillsCard {
+    width: 450px !important;
+    padding: 50px !important;
+  }
+}

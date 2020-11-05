@@ -1,0 +1,82 @@
+@import "assets/variables.scss";
+
+.onboardingStepViewImageContainer {
+  height: fit-content;
+  padding: 0 30px !important;
+  margin-top: 15px;
+}
+
+.onboardingStepViewImage {
+  max-height: 40vh;
+  width: auto;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+.onboardingStepViewTitleContainer {
+  margin: 10px 0;
+  padding: 0 !important;
+}
+
+.onboardingStepViewTitle {
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16pt;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.onboardingStepViewSubtitleContainer {
+  margin-bottom: 30px;
+  padding: 0 !important;
+}
+
+.onboardingStepViewSubtitle {
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.creatorOnboardingModalBody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.creatorOnboardingModalProgressContainer {
+  width: 30%;
+  border-right: 1px solid #e7ecf1;
+  display: flex;
+  flex-direction: column;
+}
+
+.creatorOnboardingModalProgressBarContainer {
+  flex-basis: 26%;
+  border-bottom: 1px solid #e7ecf1;
+}
+
+.creatorOnboardingModalProgressListContainer {
+  flex-basis: 74%;
+  overflow-y: scroll;
+}
+
+.creatorOnboardingModalContentContainer {
+  width: 70%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.creatorOnboardingModalFooter {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.creatorOnboardingModalFooterBtnPrev {
+  margin-right: 1rem;
+}

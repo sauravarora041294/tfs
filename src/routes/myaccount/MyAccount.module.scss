@@ -1,0 +1,397 @@
+@import "assets/variables.scss";
+@import "scss/main.scss";
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.subscriptionFormCard {
+  box-shadow: 4px 4px 8px 2px #d8dff0 !important;
+  border-radius: 3px;
+  background-color: #fff;
+  border-color: transparent !important;
+  margin: 40px auto !important;
+  padding: 15px !important;
+  max-width: 600px !important;
+}
+
+.formCardTitle {
+  text-align: center !important;
+  font-size: 20pt !important;
+  font-weight: 500 !important;
+  margin-bottom: 15px !important;
+}
+
+.formCardSubtitle {
+  text-align: center !important;
+  margin-bottom: 15px;
+  justify-content: center !important;
+}
+
+.formCardSteps {
+  margin: 3vh 0 !important;
+}
+
+.formCardButton {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px !important;
+}
+
+.formCardError {
+  margin-bottom: 1.5vh !important;
+}
+
+.planSelectWrapper {
+  .planSelectGroup {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .planSelectCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 240px;
+    height: 100%;
+    padding: 0 23px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    background-color: #fcfcfc;
+    margin-right: 15px;
+    padding-top: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .planSelectCard ~ .planSelectCard {
+    margin-right: 0;
+  }
+
+  // .planSelectCard::before {
+  //   background-color: transparent;
+  //   opacity: 0;
+  // }
+
+  .planSelectCardCheckIcon {
+    width: 25px;
+    position: absolute;
+    top: -12px;
+    right: -5px;
+  }
+
+  .planSelectPrice {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .planSelectTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+  }
+
+  .planSelectSubtitle {
+    font-size: 13px;
+    margin-top: -10px;
+    color: unset;
+  }
+}
+.myAccountRoot {
+  background-color: #f8f9fe;
+  min-height: 100vh;
+  position: relative;
+  flex: 1;
+  align-items: center;
+}
+
+.myAccountCardContainer {
+  padding: 30px 0 0 0;
+  width: 100vw;
+}
+
+.myAccountCard {
+  margin: 0 auto !important;
+  margin-bottom: 20px !important;
+}
+
+.myAccountCardTitle {
+  width: 180px;
+  height: 35px;
+
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #31394d;
+}
+.sectionTitle {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #31394d;
+}
+.myAccountCardGrid {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+}
+
+.myAccountCardGridRow {
+  padding: 30px 20px !important;
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
+.myAccountSectionTitle {
+  width: 120px;
+  height: 24px;
+
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #31394d;
+}
+
+.myAccountSectionGrid {
+  padding: 0px !important;
+}
+
+.myAccountSectionGridColumn {
+  padding: 0px !important;
+}
+
+.myAccountInfoGrid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.myAccountInfoGridRow {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.myAccountInfoGridColumn {
+  width: 100px !important;
+  padding: 0 !important;
+}
+
+.myAccountInfoGridLabel {
+  width: 160px;
+  height: 19px;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a7bed4;
+}
+
+.myAccountInfoGridField {
+  width: 160px;
+  height: 22px;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4e6275;
+  margin: 10px 0;
+}
+
+.myAccountSectionActionLink {
+  width: 100%;
+  height: 22px;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #3ba0ff;
+  text-align: left;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.myAccountSectionActionLink:hover {
+  color: #1864ac;
+}
+
+.myAccountUpdateProfileModal {
+  max-height: 270px;
+  margin: auto !important;
+  max-width: 400px;
+}
+
+.myAccountCancelMembershipModal {
+  max-height: 200px;
+  margin: auto !important;
+  max-width: 400px;
+}
+
+.updateProfileInfoForm {
+  margin: auto;
+  padding: 0px;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.updateProfileInfoFormField {
+  height: $btn_input_height;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 15px;
+
+  background-color: #f1f4fb !important;
+  color: #677989 !important;
+  border-color: transparent !important;
+  border-width: 0px !important;
+}
+
+.updateProfileInfoFormLabel {
+  width: 100px;
+  height: 19px;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a7bed4 !important;
+}
+
+.updateProfileInfoFormSubmitButton {
+  margin-top: 20px;
+
+  height: 40px;
+  box-shadow: 0 1px 3px 0 rgba(162, 199, 234, 0.32);
+}
+
+.errorMessage {
+  color: #ff0000;
+  text-align: center;
+}
+
+.updateEmailFormItem {
+  width: 100%;
+}
+.updateEmailFormInput {
+  width: 300px;
+}
+.updateProfileSubmitButton {
+  width: 100%;
+}
+.myAccountUpdateProfileModal {
+  max-height: 270px;
+  margin: auto !important;
+  max-width: 400px;
+}
+
+.errorMessage {
+  color: #8f2d2d;
+}
+
+.cancelMemberShipButton:hover {
+  color: red;
+  border: 1px solid red;
+}
+.submitButton {
+  border-width: 0px;
+  color: #fff;
+  font-size: 11pt;
+
+  width: 100%;
+  height: 40px;
+  border-radius: 22.5px;
+  box-shadow: 0 1px 3px 0 rgba(162, 199, 234, 0.32);
+  background-image: linear-gradient(to left, #54c1ff, #4da7ff);
+}
+
+.form {
+  margin: auto;
+  padding: 0px;
+  background-color: #fff;
+  width: 100%;
+}
+.planPriceText {
+  font-size: 18px;
+}
+.myAccountUpdateBillingInfoModal {
+  max-height: 620px;
+  margin: auto !important;
+}
+
+.updateBillingInfoModalScrollingConent {
+  max-height: 550px !important;
+}
+
+.myAccountUpdatePlanModal {
+  max-height: 320px !important;
+  margin: auto !important;
+  width: 300px !important;
+}
+
+.myAccountUpdateProfileModal {
+  max-height: 270px;
+  margin: auto !important;
+  max-width: 400px;
+}
+
+.errorMessage {
+  padding: 10px 0;
+  color: #ff0000;
+}
+
+.pendingSubscriptionChangeAlert {
+  margin-top: 2rem;
+}
+
+@media (min-width: 750px) {
+  .myAccountSectionGridColumn {
+    height: 100%;
+  }
+
+  .myAccountSectionActionLink {
+    text-align: right;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: end;
+  }
+
+  .myAccountCard {
+    padding: 20px 20px !important;
+    max-width: 750px !important;
+  }
+}

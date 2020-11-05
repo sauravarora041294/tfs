@@ -1,0 +1,70 @@
+.qualityTagButtonsRow {
+  margin: 15px 0 !important;
+}
+
+.highlightedQualityTagButton {
+  color: #40a9ff !important;
+  border-color: #40a9ff !important;
+}
+
+.qualityTagButtonColumn {
+  margin-right: -10px !important;
+}
+
+.qualityTagButtonsCreatorMessage {
+  color: #a6b0bb;
+  margin: auto !important;
+}
+.qualityTagButtonContainerHeader {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 5px;
+  min-width: 230px;
+  color: #2c3848;
+}
+.qualitTagButtonTextContainer {
+  flex: 2;
+  word-wrap: break-word;
+  font-size: 12px;
+  line-height: 23px;
+
+  letter-spacing: 0.01em;
+  color: #47515f;
+}
+.qualitTagButtonButtonContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.qualityTagButton {
+  width: 180px;
+  height: 32px;
+  border: 1px solid #ebeef3;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #39444f;
+}
+
+.qualityTagButtonContainer {
+  margin: 2rem;
+  border: 1px solid #f0f3f9;
+  border-radius: 10px;
+  padding: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+@import "./QualityTagButtons.media.scss";

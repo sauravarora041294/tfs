@@ -1,0 +1,132 @@
+@import "assets/variables.scss";
+@import "./CreatorAppPrimaryLayout.media.scss";
+@import "scss/main.scss";
+
+.dashboardTopBar {
+  background-color: var(--white-background);
+  box-shadow: 0 0 5px 0 #d8dff0;
+  height: var(--topbar-height);
+  width: 100%;
+  margin: 0 !important;
+  z-index: 99;
+  position: fixed;
+}
+
+.sidebar {
+  background-color: var(--white-background);
+  box-shadow: 0 4px 5px 5px #d8dff0 !important;
+  float: left;
+  width: 200px;
+  overflow: visible;
+}
+
+.sider {
+  background: #fff;
+  background-color: #fff !important;
+  padding-top: 15px;
+}
+
+.sidebarMenu {
+  height: 100%;
+}
+
+.contentLayout {
+  padding: 0 24px 24px;
+  background-color: #f7f9ff !important;
+}
+
+.logoMobile {
+  height: 30px;
+  display: inline-block !important;
+  margin: auto 30px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 26px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0;
+  float: left !important;
+  display: block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+  right: 0;
+}
+
+.toggleButton {
+  float: left !important;
+  display: block !important;
+  margin: auto 20px;
+  width: 45px;
+}
+
+.dropdownAvatar {
+}
+
+.topBarToggleButtonColumn {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.topBarLogoColumn {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.topBarAvatarColumn {
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding-right: 30px !important;
+}
+
+.topBarSearchbarColumn {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.searchBarInput {
+  height: $btn_input_height;
+  width: 100%;
+  border-radius: 25px;
+  border-width: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  float: left;
+
+  :global {
+    input {
+      background-color: #f5f6f9;
+      border-radius: 5px;
+      border: 0;
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    button {
+      box-shadow: none;
+    }
+  }
+}
+
+.searchIcon {
+  margin: 4px !important;
+}
+
+.creatorLayout {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}

@@ -1,0 +1,1213 @@
+@import "assets/variables.scss";
+@import "scss/main.scss";
+
+.creatorsCardProfilePictureImage {
+  object-fit: cover;
+  width: 75px;
+  border: 1px solid hsl(0, 0%, 94%);
+  height: 75px;
+  img {
+    object-fit: cover;
+  }
+}
+
+.creatorsCardProfilePictureImageMobile {
+  object-fit: cover;
+  width: 35px;
+  border: 1px solid hsl(0, 0%, 94%);
+  height: 35px;
+  img {
+    object-fit: cover;
+  }
+}
+
+.creatorsCardUserDetailContainer {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  justify-content: space-between;
+  letter-spacing: normal;
+  color: #4d5a69 !important;
+}
+
+.contentCardMiscDataContainer {
+  color: #a6b0bb !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  left: 15px;
+  font-weight: 600;
+}
+
+.contentCardRatingData {
+  color: #a6b0bb !important;
+  font-size: 10pt;
+  left: 15px;
+  font-weight: 500;
+}
+
+.myDashboardRoot {
+  background-color: #fff;
+  min-height: 100vh;
+  position: relative;
+  flex: 1;
+  align-items: center;
+}
+
+.searchResultArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBarIcon {
+  background-color: #4da1ff !important;
+}
+
+.searchResultHits {
+  padding: 10px 10px 10px 10px;
+}
+
+.searchResultCard {
+  border-radius: 3px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 10px auto !important;
+  background-color: #fff !important;
+  border-color: transparent;
+  max-width: 650px !important;
+  height: 150px;
+}
+
+.searchResultCardGrid {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.searchResultCardGridRow {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+}
+
+.searchResultThumbnailContainer {
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 200px !important;
+}
+
+.searchResultThumbnailImage {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  border-bottom-right-radius: 10px;
+}
+
+.searchResultThumbnailMoreInfo {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -21px;
+  height: 21px;
+  margin-bottom: -21px;
+}
+
+.progressbar {
+  margin: 8px 11px;
+  width: 90%;
+  display: flex;
+}
+
+.progressComplete {
+  height: 6px;
+  background-color: var(--active-font-color);
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.progressIncomplete {
+  height: 4px;
+  background-color: var(--font-grey-color);
+  margin-left: -1px;
+  margin-top: 1px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.searchResultThumbnailMoreVideo {
+  width: 52px;
+  background-color: #fb255d;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultThumbnailMorePlaylist {
+  width: 52px;
+  background-color: #7780e8;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultThumbnailMoreInfoTime {
+  width: 47px;
+  height: 21px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 10px;
+  margin-right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultThumbnailMoreInfoIcon {
+  width: 9px;
+  height: 9px;
+  margin-right: 4px;
+}
+
+.searchResultThumbnailMoreInfoText {
+  font-size: 8px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #fff;
+}
+
+.searchResultTextContainer {
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.searchResultTitleText {
+  color: #4a525c;
+  font-size: 15pt !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.searchResultTitleInfo {
+  font-size: 12pt !important;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #4d5a69;
+  margin: 10px 0;
+}
+
+.searchResultPlaylistText {
+  color: #8da3bc;
+  font-size: 12pt;
+  font-weight: 300;
+  margin: 0;
+}
+
+.searchResultTagArea {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchResultsText {
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  line-height: 29px;
+  white-space: normal;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: black;
+  margin-top: 8px;
+}
+
+.submitButton {
+  background-color: #3f8cff;
+  color: #ffffff;
+  border-color: #bedbff;
+  border-radius: 3px;
+  padding: 10px 15px 10px 15px;
+  float: right;
+}
+
+.tagLabel {
+  font-size: 9pt !important;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--active-font-color);
+  border-radius: 3px;
+  background-color: rgba(77, 161, 255, 0.1);
+  padding: 4px 8px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.minimalCard {
+  flex: 0 0 auto;
+  border-radius: 7.5px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 25px 17.5px 0 0 !important;
+  height: 350px !important;
+  padding-bottom: 1rem !important;
+  border: 1px solid #f0f3f9;
+  .ant-card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+  }
+  .minimalCardHeaderContainer {
+    flex-grow: 1 !important;
+  }
+}
+
+.minimalCardWithoutCreator {
+  flex: 0 0 auto;
+  border-radius: 3px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 10px 5px !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  width: 268px !important;
+  height: 350px !important;
+}
+
+.videoMinimalCardVerticalOrientationBadge {
+  width: 100% !important;
+}
+
+.cardVerticalOrientation {
+  width: 100% !important;
+  flex: 0 0 auto;
+  overflow: hidden !important;
+  margin: 31px 5px 10px 5px !important;
+  background: #ffffff;
+  border: 1px solid #e8ecf3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-width: 900px;
+  padding: 0 2rem;
+
+  .cardVerticalOrientationRow {
+    align-items: center;
+  }
+}
+
+.creatorMinimalCardVerticalOrientation {
+  width: 100% !important;
+  max-width: 900px;
+  border: 1px solid #e8ecf3;
+  margin-top: 2rem;
+  .creatorsName {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+  }
+  .creatorCardCreatorTitle {
+    margin-bottom: 15px;
+  }
+  .contentCardMiscDataContainer {
+    color: black !important;
+    font-size: 0.875rem;
+    span {
+      margin-left: 5px;
+      color: var(--font-grey-color) !important;
+      font-size: 11px;
+    }
+  }
+  .creatorCardSeparator {
+    margin: 0 10px !important;
+    color: rgb(63, 59, 59);
+  }
+}
+
+.thumbnailContainer {
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  height: 13rem;
+}
+
+.cardLockedOverlay {
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLockedOverlayIcon {
+  color: #fff;
+  font-size: 3.5em;
+}
+
+.cardLockedOverlayText {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.videoMinimalCardThumbnail {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.minimalMissionCardFooterContainer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.minimalCardNew {
+  .contentFeedViewCardTitleText {
+    font-size: 1.3rem;
+    color: #000000;
+    margin-top: 0.5rem;
+  }
+
+  .minimalMissionCardFooterContainer {
+    position: absolute;
+    bottom: 1rem;
+  }
+
+  .contentFeedViewCardDescription {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.contentFeedViewCardTitleTextVerticalOrientation {
+  margin-bottom: 10px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 19px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.cardHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 1.1rem;
+  margin-right: 12px;
+  align-items: center;
+}
+.cardCreatorContainer {
+  align-self: flex-end;
+}
+
+.verticalCardViewsDurationRatingContainer {
+  $font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  :global {
+    .ant-rate-text {
+      font-size: $font-size;
+    }
+  }
+
+  .cardViewsCount {
+    font-style: normal;
+    font-weight: 500;
+    font-size: $font-size;
+    align-items: center;
+    text-align: center;
+    margin-right: 4px;
+    color: black;
+  }
+
+  .cardViewsText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: $font-size;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: $font--grey;
+  }
+
+  .noRatingsText {
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    color: black;
+    opacity: 0.5;
+    line-height: 21px;
+    font-size: 12px;
+  }
+
+  .verticalCardRating {
+    font-size: $font-size;
+    display: flex;
+    align-items: center;
+
+    i {
+      color: $icon--gold;
+    }
+
+    :global {
+      .ant-rate-text {
+        color: black;
+        margin-left: 0;
+        margin-right: 10px;
+      }
+
+      .anticon {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.minimalCardContentTypeTag {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .minimalCardContentTypeTagLabel {
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.313rem;
+    font-size: 0.75rem;
+  }
+}
+
+.qualityTagsContainer {
+  margin-bottom: 12px;
+  margin-left: 69px;
+}
+
+.verticalCardViewsCount {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.313rem;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.verticalCardViewsText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #686f7b;
+  line-height: 21px;
+  align-items: center;
+}
+
+.verticalCardNoRatingsText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #686f7b;
+  line-height: 21px;
+  align-items: center;
+}
+.contentCardRatingData {
+  margin-left: 69px;
+}
+.ratingInfoText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  align-items: center;
+  color: var(--standard-grey);
+  margin-left: 8px;
+  letter-spacing: 2px;
+}
+.videoMinimalCardTitleTextMobile {
+  color: #4d5a69;
+  font-size: 10pt;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.videoMinimalThumbnailContainer {
+  width: 100%;
+  height: 13rem;
+}
+
+.videoMinimalProgressbar {
+  position: absolute;
+  bottom: -6px;
+  margin-right: 0px;
+  margin-left: -1px;
+  width: calc(100% + 2px);
+}
+
+.thumbnailTagContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10px;
+  padding-right: 11px;
+  position: absolute;
+  width: 100%;
+  bottom: 21px;
+  background: transparent;
+  border: none;
+  overflow: hidden;
+  right: -5px;
+  margin: 0;
+
+  span {
+    display: inline-block;
+  }
+}
+
+.minimalThumbnailMetadataLabel {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 10px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  padding: 5.9px 10px 4.9px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.defaultView {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.defaultViewResultsGrid {
+  overflow: auto !important;
+  overflow-y: hidden !important;
+  -ms-overflow-y: hidden !important;
+  padding-top: 0 !important;
+}
+.defualtViewResultsGridRow {
+  overflow: auto !important;
+  overflow-y: hidden !important;
+  -ms-overflow-y: hidden !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  padding-top: 0 !important;
+}
+.defaultViewSectionContainer {
+  overflow: auto !important;
+  overflow-y: hidden !important;
+  -ms-overflow-y: hidden !important;
+  padding-top: 0 !important;
+}
+
+.defaultViewSectionHeader {
+  width: auto !important;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 21px;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: 2rem;
+}
+
+.defaultViewSectionHeaderMobile {
+  width: auto !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.defaultViewScrollerText {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loadingViewGrid {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px !important;
+}
+
+.loadingViewRow {
+  width: 100%;
+  height: 150px;
+  margin: 5px auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.loadingViewSegment {
+  max-width: 650px;
+  height: 150px;
+  border-radius: 3px;
+}
+
+.minimalCardThumbnailContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.videoMinimalCardThumbnailContainerVerticalOrientation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 180px;
+}
+.verticalResourcePageItemContainer {
+  height: 110px;
+}
+
+.searchResultContentContainerVerticalOrientation {
+  width: 100%;
+  padding: 10px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.searchResultsVerticalCardRightSideContent {
+  padding: 1rem 0;
+}
+
+.thumbnail {
+  padding: 0 !important;
+}
+
+.creatorsCardVerticalOrientation{
+  display: flex;
+  // padding: 2rem 3rem;
+  // border: 1px solid #e8ecf3;
+  border-radius: 5px;
+  max-width: 900px;
+}
+
+.creatorsCardVerticalOrientationCreatorDetailsContianer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+// .creatorMinimalCardThumbnailContainerVerticalOrientation {
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   overflow: hidden;
+//   width: 100%;
+//   height: 100%;
+// }
+
+.videoMinimalCardTagArea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.videoMinimalCardQualityTags {
+  margin-top: 6.5px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.videoCardVerticalOrientationQualityTags {
+  margin-top: -7px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videoMinimalCardQualityTag {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 21px;
+  background: rgba(24, 144, 255, 0.1);
+  width: auto !important;
+  border-radius: 3px;
+  padding: 3px 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 9px;
+  margin-top: 5px;
+  color: #1890ff;
+}
+
+.videoMinimalCardVerticalOrientationQualityTag {
+  font-size: 12px;
+}
+
+.verticalCardFooterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 0.5rem;
+
+  :global {
+    .ant-rate {
+      margin-right: 1rem;
+    }
+  }
+}
+.verticalCardqualityTagsContainer {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.minimalCardContentTypeTagIcon {
+  margin-right: 5px;
+}
+
+.missionCardNumHoursText {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #a6b0bb !important;
+}
+
+.videoMinimalCardMetadata {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #a6b0bb !important;
+  letter-spacing: 0.5px;
+}
+
+.minimalCardMetadataVerticalOrientation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 10pt;
+  font-weight: 600;
+  color: #a6b0bb !important;
+  letter-spacing: 0.5px;
+}
+
+.resultsRow {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 1rem;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: auto;
+  width: auto;
+  scrollbar-width: none;
+  flex-wrap: wrap;
+
+  &:before {
+    display: none;
+  }
+}
+.resultsRow::-webkit-scrollbar {
+  display: none;
+}
+.resultsRowVerticalOrientation {
+  padding: 0 2vw !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 414px) {
+  .searchResultHits {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .searchResultCardGridRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchResultThumbnailContainer {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 775px) {
+  .searchResultTitleText {
+    font-size: 18px;
+  }
+  .searchResultTitleInfo {
+    font-size: 13px;
+  }
+
+  .searchResultCard {
+    width: 750px !important;
+  }
+
+  .searchResultThumbnailContainer {
+    width: 300px !important;
+  }
+
+  .loadingViewSegment {
+    width: 750px !important;
+  }
+}
+
+.creatorAvatarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #4d5a69;
+  font-size: 1verticalorientationpt;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.creatorAvatarContainerVertical {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #4d5a69;
+  font-size: 1verticalorientationpt;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  height: 30px;
+}
+
+.creatorImage {
+  margin-right: 10px;
+}
+.creatorDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.creatorDetailsLarge {
+  font-size: 15px;
+  display: flex;
+  font-weight: 600;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.creatorName {
+  font-size: 12px;
+  font-weight: 600;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #a6b0bb;
+}
+.creatorNameLarge {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  color: #a6b0bb;
+}
+.ratingAndTypeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cardDescriptionTextVerticalOrientation {
+  display: block;
+  position: relative;
+  height: 3.6em;
+  text-align: justify;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 21px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.verticalLine {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: $divider-color;
+}
+
+.minimalCardHeaderContainer {
+  padding-left: 1.65rem;
+  padding-right: 1rem;
+
+  .minimalCardTitle {
+    font-size: 1.25em !important;
+    color: #000;
+    font-weight: 400 !important;
+    margin: 1.5rem 0 1.5rem 0 !important;
+  }
+}
+
+.horizontalLine {
+  width: 100%;
+  height: 1px;
+  background: #f0f3f9;
+}
+
+.minimalCardFooterContainer,
+.minimalMissionCardFooterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 10px;
+  padding: {
+    left: 1rem;
+    right: 1rem;
+  }
+}
+
+.minimalMissionCardFooterContainer {
+  padding-right: 2rem;
+}
+
+.newMinimalMissionCardFooterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 10px;
+  position: absolute;
+  bottom: 8px;
+}
+
+.missionHeader {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+
+  .missionHeaderCount {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    color: #333333;
+    span {
+      font-weight: 500;
+      margin-right: 6px;
+    }
+  }
+}
+
+.learnMoreLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: $link_color;
+
+  img {
+    display: inline-block !important;
+    margin-left: 0.5rem;
+  }
+
+  &:hover {
+    color: $link_color;
+  }
+}
+
+.learnMoreLinkNew {
+  font-size: 14px;
+  font-weight: 500;
+  color: $link_color;
+
+  img {
+    display: inline-block !important;
+    margin-left: 0.5rem;
+  }
+
+  &:hover {
+    color: $link_color;
+  }
+}
+
+.minimalMissionDataContainer {
+  padding: 0 1rem;
+
+  .missionHeader {
+    margin-top: 1rem;
+  }
+
+  .minimalCardTitle {
+    font-size: 1.25em !important;
+    color: #000;
+    font-weight: 400 !important;
+    margin: 1.5rem 0 1.5rem 0 !important;
+  }
+
+  .minimalMissionCardFooterContainer {
+    padding-left: 0;
+  }
+}
+
+.contentFeedViewCardDescription {
+  color: black;
+  max-height: 7rem;
+  font-weight: 300;
+  line-height: 22px;
+  overflow: hidden;
+}
+.resourcePageVerticalOrientationRow {
+  height: 10rem !important;
+}
+.resourceCardVerticalOrientation {
+  box-shadow: none !important;
+  border: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 10px !important;
+  :global {
+    .creatorDetails {
+      font-size: 12px;
+    }
+  }
+
+  .thumbnailTagContainer {
+    bottom: 12px;
+    right: -9px;
+    z-index: 2;
+  }
+
+  .minimalThumbnailMetadataLabel {
+    font-size: 8px;
+    padding: 3px;
+  }
+
+  .searchResultsText {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  .searchResultContentContainerVerticalOrientation {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .verticalCardViewsDurationRatingContainer {
+    font-size: 10px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .verticalCardFooterContainer {
+    margin-top: 0;
+  }
+
+  .videoMinimalProgressbar {
+    bottom: -6px;
+    margin-left: 1px;
+    width: calc(100% - 2px);
+
+    :global {
+      .ant-progress-bg {
+        height: 6px !important;
+        border: 1px white solid;
+      }
+    }
+  }
+
+  .cardDescriptionTextVerticalOrientation {
+    display: none;
+  }
+}
+.verticalResourcePageItemContainer {
+  .searchResultsText {
+    line-height: 21px !important;
+  }
+}
+.activeResourceCard {
+  background-color: #edf3fe;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.videoWatchedOverlayIcon {
+  width: 2.5rem;
+}
+
+.cardVerticalOrientationThumbnailColumn {
+  height: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.verticalCardRatingStarContainer {
+  padding-bottom: 2px;
+}
+
+@import "./ContentFeedView.media.scss";

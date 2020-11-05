@@ -1,0 +1,303 @@
+@import "assets/variables.scss";
+
+.editMissionRoot {
+  padding: 0;
+}
+.resolvedRequestInfoSection {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  line-height: 21px;
+}
+.resolvedRequestInfoSectionTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
+.editMissionRootGrid {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+  margin-top: 5px !important;
+}
+
+.accessAlert {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.pageHeaderSubtitleText {
+  font-size: 12pt;
+}
+
+.missionInfoSectionContainer {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 1vw !important;
+  margin-bottom: 0 !important;
+}
+
+.missionSectionsContainer {
+  padding-left: 2vw !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.listArea {
+  margin: 20px 0;
+}
+
+.resourceTitle {
+  color: #4d5a69;
+  font-size: 12pt;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-right: -25px;
+  margin-left: 15px;
+  width: 100%;
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.missionSectionListContainer {
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+.missionTitleText {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contributorsTitleText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.contentTableHeaderText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.missionDescriptionText {
+  margin-top: 2px;
+  font-size: 12pt;
+}
+
+.missionMetadata {
+  margin-top: 10px;
+  font-size: 12pt;
+}
+
+.missionTagsArea {
+  margin: 15px 0;
+}
+
+.missionTag {
+  padding: 4px 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.missionContributorsArea {
+  margin-top: 10px;
+}
+
+.missionContributorsListCard {
+  margin-bottom: 20px !important;
+  padding: 1rem !important;
+}
+
+.playlistContributorsListCard {
+  margin-top: 20px !important;
+}
+
+.missionThumbnail {
+  height: 126px !important;
+  width: 224px !important;
+  margin: auto;
+  object-fit: cover;
+}
+
+.thumbnailImage {
+  height: 70px !important;
+  width: 120px !important;
+  object-fit: cover;
+  margin: 0 0px;
+}
+
+.shiftButtonGroup {
+  margin-left: -10px !important;
+  margin-right: 10px !important;
+}
+.missionInfoCard {
+  padding: 2rem 1rem !important;
+}
+
+.listItem {
+}
+
+.editMissionButtonGroup {
+  margin-top: 15px;
+}
+
+.listItemText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.sectionDescription {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sectionHeader {
+  padding-bottom: 10px;
+}
+
+.addVideoButton {
+  height: 45px;
+  color: #1f8cf0;
+  border-color: #1f8cf0;
+  margin: 7.5px 0;
+}
+
+.condensedFormItem {
+  margin: 5px 0;
+  width: 100%;
+}
+
+.finishEditingButton {
+}
+
+.cancelEditingButton {
+}
+
+.condensedForm {
+  margin-top: 10px;
+}
+
+.middot {
+  font-size: 20pt;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.sectionsAreaHeader {
+  padding-bottom: 20px !important;
+}
+
+.addSectionButton {
+  color: #1f8cf0;
+  border-color: #1f8cf0;
+}
+
+.deleteSectionButton {
+  color: red;
+}
+
+.contributorAdminLabel {
+  font-weight: 500;
+}
+
+.missionFieldLabel {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 13pt;
+}
+
+.editMissionButtonContainer {
+  margin: 10px 0;
+}
+
+.missionInfoHeaderGrid {
+  margin: 10px 0 15px 0 !important;
+}
+
+.missionInfoContainer {
+  padding: 0 15px;
+}
+
+.contentTableCreatorName {
+  display: inline-block !important;
+  float: left !important;
+}
+
+.contentTableCreatorAvatar {
+  display: inline-block !important;
+  float: left !important;
+}
+
+.missionContentCard {
+  margin: 20px 0 !important;
+}
+
+.missionRequestsCard {
+  width: 100%;
+}
+
+.missionRequestsHeaderText {
+  vertical-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.missionRequestsSubtitleText {
+  margin: 2vh 0 !important;
+}
+
+.missionRequestsSubtitleText div div {
+  white-space: normal !important;
+}
+
+.missionRequestsResolvedSectionPagination {
+  margin-top: 2.5vh;
+  float: right;
+  width: 100% !important;
+}
+.contentCardColumn {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.contentCardRow {
+  margin: 0 !important;
+}
+
+.infoCardsRow {
+  margin: 0 !important;
+}
+
+.contentTableThumbnailImage {
+  width: 90px !important;
+  height: 60px !important;
+  object-fit: cover !important;
+}
+
+.pageHeader {
+  margin-top: 20px !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.resolveContentRequestModalRequester {
+  margin-bottom: 10px;
+}
+
+.resolveContentRequestModalRequesterName {
+  margin-left: 10px;
+}

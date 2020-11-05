@@ -1,0 +1,32 @@
+@import "scss/main.scss";
+
+.root {
+  background-color: white;
+  border-bottom: 1px solid $grey-light !important;
+  margin-bottom: 0 !important;
+
+  :global {
+    .ant-collapse-content {
+      border-top: 1px solid $grey-light;
+    }
+
+    .ant-collapse {
+      border: 1px solid #f0f3f9;
+    }
+
+    .collapsePanelHeader {
+      display: flex;
+      align-items: center;
+      img {
+        margin-top: -4px;
+        margin-right: 1rem;
+      }
+
+      span {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@import "./CollapsePanel.media.scss";
